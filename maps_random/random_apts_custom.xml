@@ -1,0 +1,55 @@
+<Map name="Random Apartment 2">
+    <Scenario type="ClearHostiles" numDeployableTroops="0" referenceWinTimeSeconds="0" challenges="0" nightMission="false"/>
+    <Graphics fogColor="E8C47C" fogDensity="0.25" windSpeed="0.050000001" windDirection="45" cloudDensity="0" waterClarity="0.94999999" rainAmount="0" terrainNormalsStrength="1" terrainSharpness="0.5" gossaoStrength="3" gossaoStrengthTerrain="5" gossaoDirectionalOcclusion="0" gossaoLevelsMin="0.050000001"/>
+    <Terrain widthMeters="30" heightMeters="18">
+        <Materials num="1" mat0="dirt_to_asphalt"/>
+    </Terrain>
+    <MusicTracks/>
+    <Layers used="3"/>
+    <Entities>
+        <Entity template="Floor" id="1" pos="-1.5 0 0" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="Light Ambiental" id="2" pos="-15.125 2 -15.999999" rot="1 -0 0 0 1 -0 0 0 1">
+            <Light color0="FFFFFF" color1="474747" colorMultiplier="0.70999998" isIndoorLight="true" startDisabled="false"/>
+        </Entity>
+        <Entity template="Light Ambiental" id="3" pos="-14.125 2 -15.999999" rot="1 -0 0 0 1 -0 0 0 1">
+            <Light color0="BBD8FD" color1="818181" colorMultiplier="0.60000002" isIndoorLight="false" startDisabled="false"/>
+        </Entity>
+        <Entity template="Light Directional" id="4" pos="-13.125 2 -15.999999" rot="0.970685184 0.133660361 0.199762613 0.16038385 0.258825749 -0.952515841 -0.179017469 0.956631601 0.229801312">
+            <Light color="FCDDC7" colorMultiplier="1.2" isIndoorLight="false" startDisabled="false"/>
+        </Entity>
+        <Entity template="Default Effect (Outdoors)" id="5" pos="-12.125 2 -15.999999" rot="1 -0 0 0 1 -0 0 0 1">
+            <SoundShader effectID="EFX_REVERB_OUTDOOR" defaultIndoors="false" defaultOutdoors="true"/>
+        </Entity>
+        <Entity template="Default Effect (Indoors)" id="6" pos="-11.125 2 -15.999999" rot="1 -0 0 0 1 -0 0 0 1">
+            <SoundShader effectID="EFX_REVERB_INDOOR" defaultIndoors="true" defaultOutdoors="false"/>
+        </Entity>
+        <Entity template="RMG Building Shape" id="56" pos="-8 0.100000001 -5" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
+            <PolyShape num="5" p0="0 0 0" p1="16 0 0" p2="16 0 9" p3="0 0 9" p4="0 0 0"/>
+        </Entity>
+        <Entity template="RMG Building Entrance" id="57" pos="8.00000095 0.00100000005 -3.5" rot="1.56462193e-07 0 -1 0 1 0 1 0 1.56462193e-07" layerMask="1">
+            <Targets num="1" id0="56"/>
+            <RandStart tags="spawn_entrance" theme="apartment" addTerrainMask="true" addMovementBlockers="true" shapeFillMin="0.74299997">
+                <Limits>
+                    <Limit min="1" max="2" tags="bathroom"/>
+                    <Limit min="1" max="2" tags="bedroom"/>
+                    <Limit min="1" max="1" tags="kitchen"/>
+                    <Limit min="0" max="1" tags="hallway"/>
+                </Limits>
+            </RandStart>
+        </Entity>
+        <Entity template="RMG Building Shape" id="7" pos="-4.5 0.100000001 5.5" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <PolyShape num="7" p0="0 0 0" p1="0 0 -3.00000048" p2="-4.5 0 -2.99999976" p3="-4.5 0 -11" p4="11.5 0 -11.000001" p5="11.5 0 0" p6="0 0 0"/>
+        </Entity>
+        <Entity template="RMG Building Entrance" id="9" pos="-3 0.00100000005 5.50000095" rot="-1 0 -2.75671454e-07 0 1 0 2.75671454e-07 0 -1" layerMask="2">
+            <Targets num="1" id0="7"/>
+            <RandStart tags="spawn_entrance" theme="apartment" addTerrainMask="true" addMovementBlockers="true" shapeFillMin="0.74299997">
+                <Limits>
+                    <Limit min="1" max="2" tags="bathroom"/>
+                    <Limit min="1" max="2" tags="bedroom"/>
+                    <Limit min="1" max="1" tags="kitchen"/>
+                    <Limit min="0" max="1" tags="hallway"/>
+                </Limits>
+            </RandStart>
+        </Entity>
+    </Entities>
+</Map>

@@ -1,0 +1,8 @@
+<Maps>
+	<Bundle name="More_RMG_Maps_Small" rmg="small">
+		<Map source="data/maps_random/random_apts_custom.xml"/>
+		<Map source="data/maps_random/pathtosuckless_rmg.xml"/>
+		<Map source="data/maps_random/alltogethernow_rmg.xml"/>
+	</Bundle>
+
+</Maps>

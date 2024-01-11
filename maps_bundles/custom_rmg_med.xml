@@ -1,0 +1,8 @@
+<Maps>
+	<Bundle name="More_RMG_Maps_Med" rmg="medium">
+		<Map source="data/maps_random/whywefight_rmg.xml"/>
+		<Map source="data/maps_random/whywefight_rmg2.xml"/>
+		<Map source="data/maps_random/rescueatdawn_rmg.xml"/>
+		<Map source="data/maps_random/killingtime_rmg.xml"/>
+	</Bundle>
+</Maps>
