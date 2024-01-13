@@ -178,6 +178,10 @@
         <Entity template="Civ Flee Zone" id="6747" pos="-8.5 0.0299999993 6.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
         <Entity template="HVT EscapeZone" id="6750" pos="-5 0.0299999993 6.00000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
         <Entity template="RescueZone" id="6752" pos="-8 0.0299999993 -6.00000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
+        <Entity template="Deploy Slot" id="9" pos="-8 0.100000001 -5.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
+        <Entity template="Deploy Slot" id="10" pos="-8 0.100000001 -6.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
+        <Entity template="Deploy Slot" id="5" pos="-6.37500048 0.100000001 5.50000048" rot="-0.939692616 0 0.342020303 0 1 0 -0.342020303 0 -0.939692616" layerMask="1"/>
+        <Entity template="Deploy Slot" id="7" pos="-7.00000048 0.100000001 6.37500048" rot="-0.49999994 0 0.866025507 0 1 0 -0.866025507 0 -0.49999994" layerMask="1"/>
         <Entity template="Deploy Slot" id="768" pos="-5.25000048 0.100000001 3.375" rot="-0.819152117 0 0.573576272 0 1 0 -0.573576272 0 -0.819152117" group="62" layerMask="1"/>
         <Entity template="Deploy Slot" id="769" pos="-5.87500048 0.100000001 4.5" rot="-0.819151938 0 0.573576689 0 1 0 -0.573576689 0 -0.819151938" group="63" layerMask="1"/>
         <Entity template="Ranger Assaulter" id="1576" pos="-5.25000048 0 3.37500024" rot="-0.819152176 0 0.573576152 0 1 0 -0.573576152 0 -0.819152176" group="329" layerMask="1">
