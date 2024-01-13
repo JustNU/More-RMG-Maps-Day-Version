@@ -74,7 +74,7 @@
         <Entity template="barrel_01_02" id="472" pos="-12.250001 0.666420817 7.25000048" rot="-1 0 0 0 1 0 0 0 -1"/>
         <Entity template="barrel_02_02" id="474" pos="-12.625001 0.6898247 7.87500048" rot="-1 0 0 0 1 0 0 0 -1"/>
         <Entity template="Terrain" id="4" pos="16.625 0 -8" rot="-1 0 0 0 1 0 0 0 -1">
-            <PolyShape num="22" p0="0 0 0" p1="12.25 0 0" p2="12.25 0 -0.249999523" p3="16 0 -0.249999523" p4="16 0 0" p5="25.625 0 0" p6="25.625 0 -0.249999523" p7="29.625 0 -0.249999523" p8="29.625 0 0" p9="33.375 0 0" p10="33.375 0 -7.875" p11="32.25 0 -7.875" p12="32.25 0 -15.5" p13="32 0 -15.5" p14="30.875 0 -16.625" p15="30.75 0 -16.875" p16="22.25 0 -16.875" p17="22.125 0 -16.75" p18="0.874999046 0 -16.875" p19="0.874999046 0 -7.375" p20="-0.5 0 -7.375" p21="0 0 0"/>
+            <PolyShape num="23" p0="0 0 0" p1="12.25 0 0" p2="12.25 0 -0.249999523" p3="16 0 -0.249999523" p4="16 0 0" p5="25.625 0 0" p6="25.625 0 -0.249999523" p7="29.625 0 -0.249999523" p8="29.625 0 0" p9="33.375 0 0" p10="33.375 0 -7.875" p11="32.25 0 -7.875" p12="32.25 0 -15.5" p13="32 0 -15.5" p14="30.875 0 -16.625" p15="30.75 0 -16.875" p16="22.625 0 -16.875" p17="22.625 0 -17" p18="21.625 0 -17" p19="0.874999046 0 -17" p20="0.874999046 0 -7.375" p21="-0.5 0 -7.375" p22="0 0 0"/>
         </Entity>
         <Entity template="chair_plastic_01" id="195" pos="-8.375 0.598327935 7.875" rot="-0.342020214 0 0.939692676 0 1 0 -0.939692676 0 -0.342020214"/>
         <Entity template="chair_plastic_01" id="199" pos="-9.75 0.598327935 7.75" rot="0.573576331 0 0.819152117 0 1 -0 -0.819152117 0 0.573576331"/>
@@ -214,9 +214,6 @@
                 <Traits chanceToInvestigate="0.23999999"/>
             </Human>
         </Entity>
-        <Entity template="gate_metal_sheet_locked" id="769" pos="-12.625001 0 -0.37500006" rot="1 0 0 0 1 0 0 0 1" group="44" layerMask="256"/>
-        <Entity template="door_threshold_grate_01" id="770" pos="-12.625001 1.31108173e-08 -0.37500006" rot="1 0 0 0 1 0 0 0 1" group="44" layerMask="256"/>
-        <Entity template="door_frame_grate_01" id="771" pos="-12.625001 1.31107925e-08 -0.37500006" rot="1 0 0 0 1 0 0 0 1" group="44" layerMask="256"/>
         <Entity template="shrub_03" id="773" pos="-15.500001 0.201024577 -7.00000048" rot="-0.669130683 0 0.74314481 0 1 0 -0.74314481 0 -0.669130683"/>
         <Entity template="shrub_03" id="774" pos="-15.500001 0.201024577 -6.25000048" rot="-0.997564018 0 0.0697566867 0 1 0 -0.0697566867 0 -0.997564018"/>
         <Entity template="shrub_03" id="775" pos="-14.625001 0.201024577 -6.75000048" rot="0.997564137 0 0.0697558075 0 1 -0 -0.0697558075 0 0.997564137"/>
@@ -249,25 +246,21 @@
         <Entity template="decal_scratches_large_01" id="809" pos="-7.25000048 0.00999999978 8.25" rot="0.694659948 0 0.719338298 0 1 -0 -0.719338298 0 0.694659948"/>
         <Entity template="decal_scratches_large_03" id="811" pos="-10.875001 0.00999999978 0.5" rot="-0.559193134 0 -0.829037428 0 1 0 0.829037428 0 -0.559193134"/>
         <Entity template="decal_scratches_large_03" id="812" pos="-11.375001 0.00999999978 7.25000048" rot="-0.951056719 0 -0.309016287 0 1 0 0.309016317 0 -0.951056838"/>
-        <Entity template="Movement Blocker" id="498" pos="17.125 0 -9.5" rot="-1 0 0 0 1 0 0 0 -1">
-            <Wall numTrees="1" numNodes="10">
-                <Branch parent="0" p0="0 -1.62499952" p1="0 -9" p2="1.24999905 -9" p3="1.24999905 -18.375" p4="31.25 -18.375" p5="32.75 -16.875" p6="32.875 -9.5" p7="33.875 -9.5" p8="33.875 -1.375" p9="0 -1.375"/>
-            </Wall>
-        </Entity>
-        <Entity template="RMG Anchor" id="12" pos="-5.75000048 0.00100000005 8.625" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Anchor" id="12" pos="-5.87500048 0.00100000005 8.625" rot="1 0 0 0 1 0 0 0 1">
             <RandAnchor tags="" mandatory="false"/>
         </Entity>
-        <Entity template="RMG Anchor" id="15" pos="-4.25 0.00100000005 1.125" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Anchor" id="15" pos="-4.375 0.00100000005 0.875" rot="1 0 0 0 1 0 0 0 1">
             <RandAnchor tags="" mandatory="false"/>
         </Entity>
-        <Entity template="RMG Building Shape" id="17" pos="-6.00000048 0.100000001 1" rot="1 0 0 0 1 0 0 0 1">
-            <PolyShape num="9" p0="0 0 0" p1="8 0 0" p2="8 0 -1" p3="9.00000095 0 -1" p4="9.00000095 0 -2" p5="22 0 -2" p6="21.7500019 0 7.75" p7="0 0 7.875" p8="0 0 0"/>
+        <Entity template="RMG Building Shape" id="17" pos="-6.00000048 0.100000001 0.87500006" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="14" p0="0 0 0" p1="1.50000048 0 0" p2="1.50000048 0 -0.125000119" p3="2.00000048 0 -0.125" p4="2.00000048 0 0" p5="6.25000048 0 0" p6="8 0 0" p7="8 0 -0.87500006" p8="9.00000095 0 -0.87500006" p9="9.00000095 0 -1.875" p10="22 0 -1.875" p11="21.7500019 0 7.875" p12="0 0 8" p13="0 0 0"/>
         </Entity>
-        <Entity template="RMG Building Entrance" id="20" pos="4.5 0.00100000005 -1" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="RMG Building Entrance" id="20" pos="4.49999905 0.00100000005 -1.00000012" rot="1 0 0 0 1 0 0 0 1">
             <Targets num="11" id0="17" id1="198" id2="3826" id3="4818" id4="5653" id5="4155" id6="1593" id7="6446" id8="7058" id9="7374" id10="296"/>
             <RandStart tags="entrance" theme="compound">
                 <Limits>
                     <Limit min="0" max="0" tags="garage"/>
+                    <Limit min="0" max="1" tags="bathroom"/>
                 </Limits>
             </RandStart>
         </Entity>
@@ -350,7 +343,7 @@
         <Entity template="grass_01" id="1086" pos="5.87500048 0 -1.25" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="grass_01" id="1087" pos="6.87500048 0 -1.25" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="grass_01" id="1088" pos="7.62500048 0 -1.25" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="grass_01" id="1089" pos="8 0 -1.50000012" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="grass_01" id="1089" pos="8 0 -1.00000012" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="grass_01" id="1090" pos="8.5 0 -1.25" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="grass_01" id="1091" pos="9.125 0 -1.25" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="grass_01" id="1092" pos="9.75 0 -1.25" rot="1 0 0 0 1 0 0 0 1"/>
@@ -368,6 +361,115 @@
         <Entity template="Danger Area" id="5236" pos="-15.000001 0.100000001 -0.75" rot="1 0 0 0 1 0 0 0 1">
             <PolyShape num="24" p0="0 0 0" p1="1.875 0 -5.96046448e-08" p2="1.875 0 0.375" p3="2.75 0 0.374999911" p4="2.75 0 0" p5="3.5 0 0" p6="3.5 0 -5.96046448e-08" p7="7.37500048 0 -5.96046448e-08" p8="7.37500048 0 -1.1920929e-07" p9="10.500001 0 -5.96046448e-08" p10="10.500001 0 -1.1920929e-07" p11="11.125001 0 -1.1920929e-07" p12="11.125001 0 0.125" p13="14.000001 0 0.25" p14="14.000001 0 -7.25" p15="32 0 -7.25" p16="32 0 0.125" p17="30.7500019 0 0.125" p18="30.7500019 0 9.5" p19="0.875 0 9.625" p20="-0.625 0 8.125" p21="-0.625 0 0.625" p22="-0.625 0 -5.96046448e-08" p23="0 0 0"/>
         </Entity>
+        <Entity template="RescueZone" id="5268" pos="-15.000001 0.0299999993 -4.125" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="HVT EscapeZone" id="5270" pos="15.250001 0.0299999993 -2.375" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="barricade_concrete_02" id="1" pos="2.50501347 0.468129754 0.172994673" rot="-0.939692676 0 -0.342020065 0 1 0 0.342020065 0 -0.939692676"/>
+        <Entity template="RMG Building Entrance" id="7" pos="-15.000001 0.00100000005 -2.62500024" rot="1 0 0 0 1 0 0 0 1">
+            <RandStart tags="" enemyStrengthScale="80.702003"/>
+        </Entity>
+        <Entity template="Grunt Insurgent" id="8" pos="6.37500048 0 -1.99999952" rot="0.0871560574 0 0.996194661 0 1 -0 -0.996194661 0 0.0871560574">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Decal Dust Large 01" id="759" pos="-10.500001 0.981562495 2.375" rot="0.707106829 0 0.707106769 0 1 -0 -0.707106769 0 0.707106829"/>
+        <Entity template="debris_barrel" id="6" pos="3 0.718262196 0.49999994" rot="0.906307876 0 0.42261827 0 1 0 -0.42261827 0 0.906307876"/>
+        <Entity template="debris_barrel" id="13" pos="3.37500024 0.265019983 1.75" rot="-0.0871555805 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555805"/>
+        <Entity template="grass_02" id="11" pos="1 0 1.75000012" rot="0.275636226 0 -0.961262107 0 1 0 0.961262107 0 0.275636226"/>
+        <Entity template="grass_02" id="24" pos="-0.25 0 1.25000012" rot="0.275636226 0 -0.961262107 0 1 0 0.961262107 0 0.275636226"/>
+        <Entity template="grass_02" id="25" pos="-1.62499952 0 1.25000012" rot="0.275636226 0 -0.961262107 0 1 0 0.961262107 0 0.275636226"/>
+        <Entity template="grass_02" id="26" pos="-3.75000048 0 1.75000012" rot="0.275636226 0 -0.961262107 0 1 0 0.961262107 0 0.275636226"/>
+        <Entity template="Deploy Slot" id="95" pos="-13.5345392 0.100000001 -3.13803005" rot="0.49999994 0 0.866025567 0 1 -0 -0.866025448 0 0.499999881" layerMask="2"/>
+        <Entity template="hatchback_02_glass_door_left" id="548" pos="-11.7313929 5.96046448e-08 -4.83850908" rot="-0.766044378 0 -0.642787635 0 1 0 0.642787695 0 -0.766044497" group="32" layerMask="2"/>
+        <Entity template="hatchback_02_white" id="549" pos="-12.1935158 0 -3.98928452" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
+        <Entity template="hatchback_02_glass_back" id="550" pos="-13.7104301 -5.96046448e-08 -4.86511469" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
+        <Entity template="hatchback_02_glass_left" id="551" pos="-12.6937704 0 -5.04602098" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
+        <Entity template="hatchback_02_glass_right" id="552" pos="-13.3537683 0 -3.9028666" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
+        <Entity template="hatchback_02_glass_front" id="553" pos="-11.7272301 -5.96046448e-08 -3.72011423" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
+        <Entity template="hatchback_02_glass_door_right" id="554" pos="-12.7318039 5.96046448e-08 -2.86600375" rot="0.258819103 0 -0.965925872 0 1 0 0.965925872 -0 0.258819103" group="32" layerMask="2"/>
+        <Entity template="hatchback_02_white_door_right" id="555" pos="-12.6338253 5.96046448e-08 -2.80943251" rot="0.258819103 0 -0.965925872 0 1 0 0.965925872 -0 0.258819103" group="32" layerMask="2"/>
+        <Entity template="hatchback_02_white_door_left" id="556" pos="-11.6352386 5.96046448e-08 -4.80170441" rot="-0.766044378 0 -0.642787635 0 1 0 0.642787695 0 -0.766044497" group="32" layerMask="2"/>
+        <Entity template="Deploy Slot" id="558" pos="-5.87500048 0.100000001 -3.50000024" rot="0.258818984 0 0.965925872 0 1 -0 -0.965925872 0 0.258818984" layerMask="2"/>
+        <Entity template="Deploy Slot" id="559" pos="-11.000001 0.100000001 -5.12500048" rot="0.499999911 0 0.866025448 0 1 -0 -0.866025448 0 0.499999911" layerMask="2"/>
+        <Entity template="Deploy Slot" id="560" pos="-6.50000048 0.100000001 -6.25000048" rot="0.258819133 0 0.965925872 0 1 -0 -0.965925872 0 0.258819133" layerMask="2"/>
+        <Entity template="sedan_02_glass_left" id="648" pos="-6.50000048 5.96046448e-08 -5.50000048" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
+        <Entity template="sedan_02_blue" id="649" pos="-5.64852238 0 -4.99011278" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
+        <Entity template="sedan_02_blue_door_left" id="650" pos="-5.51624632 0 -6.16436005" rot="-0.573576331 0 -0.819152117 0 1 0 0.819152117 0 -0.573576331" group="38" layerMask="2"/>
+        <Entity template="sedan_02_glass_door_left" id="651" pos="-5.60227251 5.96046448e-08 -6.10252047" rot="-0.573576331 0 -0.819152117 0 1 0 0.819152117 0 -0.573576331" group="38" layerMask="2"/>
+        <Entity template="sedan_02_blue_door_right" id="652" pos="-5.26187229 0 -4.15048409" rot="0.42261833 0 -0.906307757 0 1 0 0.906307757 -0 0.42261833" group="38" layerMask="2"/>
+        <Entity template="sedan_02_glass_door_right" id="653" pos="-5.34491634 5.96046448e-08 -4.22209835" rot="0.42261833 0 -0.906307757 0 1 0 0.906307757 -0 0.42261833" group="38" layerMask="2"/>
+        <Entity template="sedan_02_glass_front" id="654" pos="-5.08225679 0 -5.08995962" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
+        <Entity template="sedan_02_glass_back" id="655" pos="-6.98293495 0 -4.75481844" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
+        <Entity template="sedan_02_glass_right" id="656" pos="-6.27425623 5.96046448e-08 -4.21975088" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
+        <Entity template="decal_scratches_large_01" id="672" pos="-9 0.00999999978 -5.50000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
+        <Entity template="Ranger Assaulter" id="5238" pos="-11.000001 9.31322575e-10 -5.12500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Ranger Assaulter" id="5239" pos="-13.500001 9.31322575e-10 -3.12500024" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Ranger Assaulter" id="5240" pos="-5.87500048 9.31322575e-10 -3.50000024" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Ranger Assaulter" id="5241" pos="-6.50000048 9.31322575e-10 -6.25000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="gate_metal_sheet_locked" id="769" pos="-12.625001 0 -0.37500006" rot="1 0 0 0 1 0 0 0 1" group="44" layerMask="256"/>
+        <Entity template="door_threshold_grate_01" id="770" pos="-12.625001 1.31108173e-08 -0.37500006" rot="1 0 0 0 1 0 0 0 1" group="44" layerMask="256"/>
+        <Entity template="door_frame_grate_01" id="771" pos="-12.625001 1.31107925e-08 -0.37500006" rot="1 0 0 0 1 0 0 0 1" group="44" layerMask="256"/>
+        <Entity template="sedan_02_yellow" id="580" pos="-10.250001 0 3.87500024" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
+        <Entity template="sedan_02_yellow_door_left" id="581" pos="-9.11656284 0 4.2091732" rot="-0.707106829 0 0.707106829 0 1 0 -0.707106829 0 -0.707106829" group="34" layerMask="128"/>
+        <Entity template="sedan_02_glass_door_left" id="582" pos="-9.16252232 5.96046448e-08 4.11371422" rot="-0.707106829 0 0.707106829 0 1 0 -0.707106829 0 -0.707106829" group="34" layerMask="128"/>
+        <Entity template="sedan_02_yellow_door_right" id="583" pos="-11.1440134 0 4.10997391" rot="-0.965925813 0 -0.258819103 0 1 0 0.258819103 0 -0.965925813" group="34" layerMask="128"/>
+        <Entity template="sedan_02_glass_door_right" id="584" pos="-11.0590677 5.96046448e-08 4.04062843" rot="-0.965925813 0 -0.258819103 0 1 0 0.258819103 0 -0.965925813" group="34" layerMask="128"/>
+        <Entity template="sedan_02_glass_front" id="585" pos="-10.250001 -5.29193267e-09 4.45000076" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
+        <Entity template="sedan_02_glass_right" id="586" pos="-10.9000025 8.01250195e-08 3.12500072" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
+        <Entity template="sedan_02_glass_left" id="587" pos="-9.59999943 8.01250195e-08 3.12500072" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
+        <Entity template="sedan_02_glass_back" id="588" pos="-10.250001 -1.84764551e-10 2.51999927" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
+        <Entity template="vbied_sedan_02_door_left" id="589" pos="-9.12150669 -4.10071408e-08 4.21317387" rot="-0.707106829 0 0.707106829 0 1 0 -0.707106829 0 -0.707106829" group="34" layerMask="128"/>
+        <Entity template="vbied_sedan_02_door_right" id="590" pos="-11.1489115 -4.10071408e-08 4.05023861" rot="-0.965925872 0 -0.258819044 0 1 0 0.258819044 0 -0.965925872" group="34" layerMask="128"/>
+        <Entity template="vbied_sedan_02" id="591" pos="-10.250001 -5.16745651e-08 3.91501641" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
+        <Entity template="bus_01" id="161" pos="10.8761387 0 -4.31780767" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_lights" id="162" pos="10.8761387 0 -4.31780767" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_04" id="163" pos="16.3054276 0 -4.79280901" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_03" id="164" pos="5.5454669 -2.38418579e-07 -3.86333799" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_02" id="165" pos="6.47970104 0 -5.11768675" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="166" pos="6.68456125 -0.00182557106 -2.79541278" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="167" pos="8.08615685 -0.00182557106 -2.91469932" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="168" pos="7.91184998 -0.00182557106 -5.21286726" rot="-0.0871555954 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="169" pos="9.53339958 -0.00182557106 -3.04798579" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="170" pos="9.32426643 -0.00182557106 -5.33466578" rot="-0.0871555954 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_02" id="171" pos="10.7390747 0 -5.50203943" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="172" pos="10.9354973 -0.00182557106 -3.16583681" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="174" pos="12.1824741 -0.00182557106 -5.59476709" rot="-0.0871555954 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="175" pos="12.3965874 -0.00182557106 -3.29365396" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="176" pos="13.8767681 -0.00182557106 -3.41572523" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="177" pos="13.6749039 -0.00182557106 -5.70860624" rot="-0.0871555954 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_02" id="178" pos="15.1106606 0 -5.86609888" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="bus_01_window_01" id="179" pos="15.2939739 -0.00182557106 -3.54629183" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
+        <Entity template="RMG Building Shape" id="4927" pos="-4 0.100000001 0.87500006" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <PolyShape num="5" p0="0 0 0" p1="0 0 -1.62500012" p2="-0.5 0 -1.62500012" p3="-0.5 0 0" p4="0 0 0"/>
+        </Entity>
+        <Entity template="Movement Blocker" id="498" pos="17.125 0 -9.5" rot="-1 0 0 0 1 0 0 0 -1">
+            <Wall numTrees="1" numNodes="12">
+                <Branch parent="0" p0="0 -1.62499952" p1="0 -9" p2="1.24999905 -9" p3="1.24999905 -18.625" p4="23.25 -18.625" p5="23.25 -18.375" p6="31.25 -18.375" p7="32.75 -16.875" p8="32.875 -9.5" p9="33.875 -9.5" p10="33.875 -1.375" p11="0 -1.375"/>
+            </Wall>
+        </Entity>
+        <Entity template="bush_05" id="14" pos="3.81844807 0 2.62648749" scale="0.799999952" rot="-0.978147507 0 -0.207911938 0 1 0 0.207911938 0 -0.978147507" layerMask="1"/>
+        <Entity template="bush_05" id="16" pos="3.31844807 0 1.12648726" scale="0.799999952" rot="0.882947743 0 -0.469471335 0 1 0 0.469471335 0 0.882947743" layerMask="1"/>
+        <Entity template="bush_05" id="19" pos="6.31844807 0 -0.373512775" scale="0.799999952" rot="0.0348997451 0 -0.9993909 0 1 0 0.9993909 0 0.0348997451" layerMask="1"/>
+        <Entity template="bush_05" id="22" pos="12.443449 0 -0.123512745" scale="0.799999952" rot="-0.453990757 0 0.89100647 0 1 0 -0.89100647 0 -0.453990757" layerMask="1"/>
+        <Entity template="door_metal_sheet" id="34" pos="-12.625001 0 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
+        <Entity template="door_frame_grate_01" id="35" pos="-12.625001 1.31107925e-08 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
+        <Entity template="door_threshold_grate_01" id="36" pos="-12.625001 1.31108173e-08 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
         <Entity template="blocks_bricks_cylinders_pile_02" id="772" pos="4.375 0.0100002289 1.125" rot="0.74314487 0 0.669130623 0 1 0 -0.669130623 0 0.74314487" layerMask="1"/>
         <Entity template="blocks_bricks_metalsheet_papers_carton_pile_01" id="807" pos="5.61352825 0.0100002289 0.749982595" rot="0.453990668 0 -0.89100647 0 1 0 0.89100647 0 0.453990668" layerMask="1"/>
         <Entity template="blocks_bricks_papers_crates_planks_pile_03" id="810" pos="5.21210194 0.0100002289 1.69122696" rot="0.74314487 0 0.669130623 0 1 0 -0.669130623 0 0.74314487" layerMask="1"/>
@@ -678,104 +780,6 @@
         <Entity template="tire_tractor" id="2428" pos="11.1741791 0.495326519 1.96338534" rot="0.998629212 0 -0.0523428619 0 1 0 0.0523428619 0 0.998629212" layerMask="1"/>
         <Entity template="blocks_bricks_cylinders_pile_06" id="2429" pos="10.1922703 0.00999999046 -0.231406659" rot="-0.788011193 0 0.615660906 0 1 0 -0.615660906 0 -0.788011193" layerMask="1"/>
         <Entity template="tire_tractor" id="2430" pos="11.6143808 0.968959332 1.19692373" rot="0.601808667 0 -0.798640311 0 1 0 0.798640311 0 0.601808667" layerMask="1"/>
-        <Entity template="RescueZone" id="5268" pos="-15.000001 0.0299999993 -4.125" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="HVT EscapeZone" id="5270" pos="15.250001 0.0299999993 -2.375" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="barricade_concrete_02" id="1" pos="2.50501347 0.468129754 0.172994673" rot="-0.939692676 0 -0.342020065 0 1 0 0.342020065 0 -0.939692676"/>
-        <Entity template="RMG Building Entrance" id="7" pos="-15.000001 0.00100000005 -2.62500024" rot="1 0 0 0 1 0 0 0 1">
-            <RandStart tags="" enemyStrengthScale="80.702003"/>
-        </Entity>
-        <Entity template="Grunt Insurgent" id="8" pos="6.37500048 0 -1.99999952" rot="0.0871560574 0 0.996194661 0 1 -0 -0.996194661 0 0.0871560574">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Decal Dust Large 01" id="759" pos="-10.500001 0.981562495 2.375" rot="0.707106829 0 0.707106769 0 1 -0 -0.707106769 0 0.707106829"/>
-        <Entity template="sedan_02_yellow" id="580" pos="-10.250001 0 3.87500024" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
-        <Entity template="sedan_02_yellow_door_left" id="581" pos="-9.11656284 0 4.2091732" rot="-0.707106829 0 0.707106829 0 1 0 -0.707106829 0 -0.707106829" group="34" layerMask="128"/>
-        <Entity template="sedan_02_glass_door_left" id="582" pos="-9.16252232 5.96046448e-08 4.11371422" rot="-0.707106829 0 0.707106829 0 1 0 -0.707106829 0 -0.707106829" group="34" layerMask="128"/>
-        <Entity template="sedan_02_yellow_door_right" id="583" pos="-11.1440134 0 4.10997391" rot="-0.965925813 0 -0.258819103 0 1 0 0.258819103 0 -0.965925813" group="34" layerMask="128"/>
-        <Entity template="sedan_02_glass_door_right" id="584" pos="-11.0590677 5.96046448e-08 4.04062843" rot="-0.965925813 0 -0.258819103 0 1 0 0.258819103 0 -0.965925813" group="34" layerMask="128"/>
-        <Entity template="sedan_02_glass_front" id="585" pos="-10.250001 -5.29193267e-09 4.45000076" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
-        <Entity template="sedan_02_glass_right" id="586" pos="-10.9000025 8.01250195e-08 3.12500072" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
-        <Entity template="sedan_02_glass_left" id="587" pos="-9.59999943 8.01250195e-08 3.12500072" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
-        <Entity template="sedan_02_glass_back" id="588" pos="-10.250001 -1.84764551e-10 2.51999927" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
-        <Entity template="vbied_sedan_02_door_left" id="589" pos="-9.12150669 -4.10071408e-08 4.21317387" rot="-0.707106829 0 0.707106829 0 1 0 -0.707106829 0 -0.707106829" group="34" layerMask="128"/>
-        <Entity template="vbied_sedan_02_door_right" id="590" pos="-11.1489115 -4.10071408e-08 4.05023861" rot="-0.965925872 0 -0.258819044 0 1 0 0.258819044 0 -0.965925872" group="34" layerMask="128"/>
-        <Entity template="vbied_sedan_02" id="591" pos="-10.250001 -5.16745651e-08 3.91501641" rot="-1 0 0 0 1 0 0 0 -1" group="34" layerMask="128"/>
-        <Entity template="bus_01" id="161" pos="10.8761387 0 -4.31780767" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_lights" id="162" pos="10.8761387 0 -4.31780767" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_04" id="163" pos="16.3054276 0 -4.79280901" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_03" id="164" pos="5.5454669 -2.38418579e-07 -3.86333799" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_02" id="165" pos="6.47970104 0 -5.11768675" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="166" pos="6.68456125 -0.00182557106 -2.79541278" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="167" pos="8.08615685 -0.00182557106 -2.91469932" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="168" pos="7.91184998 -0.00182557106 -5.21286726" rot="-0.0871555954 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="169" pos="9.53339958 -0.00182557106 -3.04798579" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="170" pos="9.32426643 -0.00182557106 -5.33466578" rot="-0.0871555954 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_02" id="171" pos="10.7390747 0 -5.50203943" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="172" pos="10.9354973 -0.00182557106 -3.16583681" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="174" pos="12.1824741 -0.00182557106 -5.59476709" rot="-0.0871555954 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="175" pos="12.3965874 -0.00182557106 -3.29365396" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="176" pos="13.8767681 -0.00182557106 -3.41572523" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="177" pos="13.6749039 -0.00182557106 -5.70860624" rot="-0.0871555954 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_02" id="178" pos="15.1106606 0 -5.86609888" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="bus_01_window_01" id="179" pos="15.2939739 -0.00182557106 -3.54629183" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="debris_barrel" id="6" pos="3 0.718262196 0.49999994" rot="0.906307876 0 0.42261827 0 1 0 -0.42261827 0 0.906307876"/>
-        <Entity template="debris_barrel" id="13" pos="3.37500024 0.265019983 1.75" rot="-0.0871555805 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555805"/>
-        <Entity template="bush_05" id="14" pos="3.81844807 0 2.62648749" scale="0.799999952" rot="-0.978147507 0 -0.207911938 0 1 0 0.207911938 0 -0.978147507" layerMask="1"/>
-        <Entity template="bush_05" id="16" pos="3.31844807 0 1.12648726" scale="0.799999952" rot="0.882947743 0 -0.469471335 0 1 0 0.469471335 0 0.882947743" layerMask="1"/>
-        <Entity template="bush_05" id="19" pos="6.31844807 0 -0.373512775" scale="0.799999952" rot="0.0348997451 0 -0.9993909 0 1 0 0.9993909 0 0.0348997451" layerMask="1"/>
-        <Entity template="bush_05" id="22" pos="12.443449 0 -0.123512745" scale="0.799999952" rot="-0.453990757 0 0.89100647 0 1 0 -0.89100647 0 -0.453990757" layerMask="1"/>
-        <Entity template="grass_02" id="11" pos="1 0 1.75000012" rot="0.275636226 0 -0.961262107 0 1 0 0.961262107 0 0.275636226"/>
-        <Entity template="grass_02" id="24" pos="-0.25 0 1.25000012" rot="0.275636226 0 -0.961262107 0 1 0 0.961262107 0 0.275636226"/>
-        <Entity template="grass_02" id="25" pos="-1.62499952 0 1.25000012" rot="0.275636226 0 -0.961262107 0 1 0 0.961262107 0 0.275636226"/>
-        <Entity template="grass_02" id="26" pos="-3.75000048 0 1.75000012" rot="0.275636226 0 -0.961262107 0 1 0 0.961262107 0 0.275636226"/>
-        <Entity template="door_metal_sheet" id="34" pos="-12.625001 0 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
-        <Entity template="door_frame_grate_01" id="35" pos="-12.625001 1.31107925e-08 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
-        <Entity template="door_threshold_grate_01" id="36" pos="-12.625001 1.31108173e-08 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
-        <Entity template="Deploy Slot" id="95" pos="-13.5345392 0.100000001 -3.13803005" rot="0.49999994 0 0.866025567 0 1 -0 -0.866025448 0 0.499999881" layerMask="2"/>
-        <Entity template="hatchback_02_glass_door_left" id="548" pos="-11.7313929 5.96046448e-08 -4.83850908" rot="-0.766044378 0 -0.642787635 0 1 0 0.642787695 0 -0.766044497" group="32" layerMask="2"/>
-        <Entity template="hatchback_02_white" id="549" pos="-12.1935158 0 -3.98928452" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
-        <Entity template="hatchback_02_glass_back" id="550" pos="-13.7104301 -5.96046448e-08 -4.86511469" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
-        <Entity template="hatchback_02_glass_left" id="551" pos="-12.6937704 0 -5.04602098" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
-        <Entity template="hatchback_02_glass_right" id="552" pos="-13.3537683 0 -3.9028666" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
-        <Entity template="hatchback_02_glass_front" id="553" pos="-11.7272301 -5.96046448e-08 -3.72011423" rot="-0.499999881 0 -0.866025507 0 1 0 0.866025507 0 -0.499999881" group="32" layerMask="2"/>
-        <Entity template="hatchback_02_glass_door_right" id="554" pos="-12.7318039 5.96046448e-08 -2.86600375" rot="0.258819103 0 -0.965925872 0 1 0 0.965925872 -0 0.258819103" group="32" layerMask="2"/>
-        <Entity template="hatchback_02_white_door_right" id="555" pos="-12.6338253 5.96046448e-08 -2.80943251" rot="0.258819103 0 -0.965925872 0 1 0 0.965925872 -0 0.258819103" group="32" layerMask="2"/>
-        <Entity template="hatchback_02_white_door_left" id="556" pos="-11.6352386 5.96046448e-08 -4.80170441" rot="-0.766044378 0 -0.642787635 0 1 0 0.642787695 0 -0.766044497" group="32" layerMask="2"/>
-        <Entity template="Deploy Slot" id="558" pos="-5.87500048 0.100000001 -3.50000024" rot="0.258818984 0 0.965925872 0 1 -0 -0.965925872 0 0.258818984" layerMask="2"/>
-        <Entity template="Deploy Slot" id="559" pos="-11.000001 0.100000001 -5.12500048" rot="0.499999911 0 0.866025448 0 1 -0 -0.866025448 0 0.499999911" layerMask="2"/>
-        <Entity template="Deploy Slot" id="560" pos="-6.50000048 0.100000001 -6.25000048" rot="0.258819133 0 0.965925872 0 1 -0 -0.965925872 0 0.258819133" layerMask="2"/>
-        <Entity template="sedan_02_glass_left" id="648" pos="-6.50000048 5.96046448e-08 -5.50000048" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
-        <Entity template="sedan_02_blue" id="649" pos="-5.64852238 0 -4.99011278" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
-        <Entity template="sedan_02_blue_door_left" id="650" pos="-5.51624632 0 -6.16436005" rot="-0.573576331 0 -0.819152117 0 1 0 0.819152117 0 -0.573576331" group="38" layerMask="2"/>
-        <Entity template="sedan_02_glass_door_left" id="651" pos="-5.60227251 5.96046448e-08 -6.10252047" rot="-0.573576331 0 -0.819152117 0 1 0 0.819152117 0 -0.573576331" group="38" layerMask="2"/>
-        <Entity template="sedan_02_blue_door_right" id="652" pos="-5.26187229 0 -4.15048409" rot="0.42261833 0 -0.906307757 0 1 0 0.906307757 -0 0.42261833" group="38" layerMask="2"/>
-        <Entity template="sedan_02_glass_door_right" id="653" pos="-5.34491634 5.96046448e-08 -4.22209835" rot="0.42261833 0 -0.906307757 0 1 0 0.906307757 -0 0.42261833" group="38" layerMask="2"/>
-        <Entity template="sedan_02_glass_front" id="654" pos="-5.08225679 0 -5.08995962" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
-        <Entity template="sedan_02_glass_back" id="655" pos="-6.98293495 0 -4.75481844" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
-        <Entity template="sedan_02_glass_right" id="656" pos="-6.27425623 5.96046448e-08 -4.21975088" rot="0.173648313 0 -0.984807789 0 1 0 0.984807789 -0 0.173648313" group="38" layerMask="2"/>
-        <Entity template="decal_scratches_large_01" id="672" pos="-9 0.00999999978 -5.50000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="Ranger Assaulter" id="5238" pos="-11.000001 9.31322575e-10 -5.12500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Ranger Assaulter" id="5239" pos="-13.500001 9.31322575e-10 -3.12500024" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Ranger Assaulter" id="5240" pos="-5.87500048 9.31322575e-10 -3.50000024" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Ranger Assaulter" id="5241" pos="-6.50000048 9.31322575e-10 -6.25000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
         <Entity template="militaryvehicle" id="5252" pos="-10.500001 3.57627869e-07 -4.5" rot="0.0871558264 0 -0.99619478 0 1 0 0.99619478 0 0.0871558264" group="47" layerMask="4"/>
         <Entity template="militaryvehicle_door_frontleft" id="5253" pos="-9.94451714 0 -6.04222536" rot="-0.866025329 0 -0.500000238 0 1 0 0.500000238 0 -0.866025329" group="47" layerMask="4"/>
         <Entity template="militaryvehicle_door_frontright" id="5254" pos="-9.55101109 0 -3.11344767" rot="0.99619472 0 -0.0871556327 0 1 0 0.0871556327 0 0.99619472" group="47" layerMask="4"/>

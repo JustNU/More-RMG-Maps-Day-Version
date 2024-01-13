@@ -1,11 +1,10 @@
 <Map name="@map_practicemakesperfect">
-    <Scenario type="ClearHostiles" numDeployableTroops="4" referenceWinTimeSeconds="8" challenges="37" nightMission="false"/>
+    <Scenario type="ClearHostiles" numDeployableTroops="2" referenceWinTimeSeconds="8" challenges="37" nightMission="false"/>
     <Graphics fogColor="E8C47C" fogDensity="0" windSpeed="0.050000001" windDirection="45" cloudDensity="0" waterClarity="0.94999999" rainAmount="0" terrainNormalsStrength="1" terrainSharpness="0.5" gossaoStrength="3" gossaoStrengthTerrain="5" gossaoDirectionalOcclusion="0" gossaoLevelsMin="0.050000001"/>
     <Terrain widthMeters="18" heightMeters="14">
         <Materials num="2" mat0="asphalt_02" mat1="pavement_03"/>
     </Terrain>
     <MusicTracks/>
-    <Description text="@briefing_alltogethernow"/>
     <Layers used="3"/>
     <Entities>
         <Entity template="Default Effect (Indoors)" id="69" pos="-5.37499905 0.0500000007 -8.75000095" rot="1 0 0 0 1 0 0 0 1">
@@ -150,18 +149,35 @@
         <Entity template="Alt. Spawn Point" id="3536" pos="2.49999905 0.00100000005 1.4999994" rot="-1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 -1"/>
         <Entity template="Alt. Spawn Point" id="3668" pos="3.49999881 0.00100000005 1.4999994" rot="-1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 -1"/>
         <Entity template="Alt. Spawn Point" id="3798" pos="4.49999857 0.00100000005 1.4999994" rot="-1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 -1"/>
-        <Entity template="Deploy Slot" id="345" pos="-7.24999857 0.100000024 6.37500048" rot="-0.98480767 0 0.173648536 0 1 0 -0.173648536 0 -0.98480767" layerMask="1"/>
-        <Entity template="Deploy Slot" id="346" pos="-6.50000048 0.100000024 5.50000048" rot="-0.906307399 0 0.422619134 0 1 0 -0.422619134 0 -0.906307399" layerMask="1"/>
-        <Entity template="Ranger Assaulter" id="349" pos="-7.24999952 0 6.37500048" rot="-0.984807849 0 0.173648179 0 1 0 -0.173648179 0 -0.984807849" layerMask="1">
+        <Entity template="sedan_01_white" id="715" pos="4.33044529 0 4.09885502" rot="9.68575478e-08 0 -1.00000095 0 1 0 1.00000095 0 9.68575478e-08"/>
+        <Entity template="Alt. Spawn Point" id="3933" pos="5.49999952 0.00100000005 1.50000012" rot="-1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 -1"/>
+        <Entity template="Deploy Slot" id="342" pos="-7.99999952 0.100000001 -4.37499952" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" layerMask="2"/>
+        <Entity template="Deploy Slot" id="343" pos="-8 0.100000001 -3.37500095" rot="1 0 3.20374966e-07 0 1 0 -3.20374966e-07 0 1" layerMask="2"/>
+        <Entity template="humvee" id="4637" pos="-5.62500048 0 -8.75" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_topshield" id="4638" pos="-5.62500048 0 -8.75" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_door_frontleft" id="4639" pos="-4.43001366 0 -8.2699976" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_door_frontright" id="4640" pos="-6.81999636 0 -8.2749958" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_door_backleft" id="4641" pos="-4.43001175 0 -9.33498287" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_door_backright" id="4642" pos="-6.81999588 0 -9.3299818" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_glass_front" id="4643" pos="-5.62500048 0 -7.74999905" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_glass_door_frontleft" id="4644" pos="-4.43001366 0 -8.2699976" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_glass_door_frontright" id="4645" pos="-6.81999636 0 -8.2749958" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_glass_door_backright" id="4646" pos="-6.81999588 0 -9.3299818" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_cover" id="4647" pos="-5.62500048 0 -8.75" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="humvee_glass_door_backleft" id="4648" pos="-4.43001175 0 -9.33498287" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
+        <Entity template="Ranger Assaulter" id="4653" pos="-8 9.31322575e-10 -3.37500024" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="Ranger Assaulter" id="351" pos="-6.49999905 0 5.50000048" rot="-0.906307578 0 0.422618568 0 1 0 -0.422618568 0 -0.906307578" layerMask="1">
+        <Entity template="Ranger Assaulter" id="4654" pos="-8 9.31322575e-10 -4.375" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
+        <Entity template="Civ Flee Zone" id="6747" pos="-8.5 0.0299999993 6.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
+        <Entity template="HVT EscapeZone" id="6750" pos="-5 0.0299999993 6.00000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
+        <Entity template="RescueZone" id="6752" pos="-8 0.0299999993 -6.00000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
         <Entity template="Deploy Slot" id="768" pos="-5.25000048 0.100000001 3.375" rot="-0.819152117 0 0.573576272 0 1 0 -0.573576272 0 -0.819152117" group="62" layerMask="1"/>
         <Entity template="Deploy Slot" id="769" pos="-5.87500048 0.100000001 4.5" rot="-0.819151938 0 0.573576689 0 1 0 -0.573576689 0 -0.819151938" group="63" layerMask="1"/>
         <Entity template="Ranger Assaulter" id="1576" pos="-5.25000048 0 3.37500024" rot="-0.819152176 0 0.573576152 0 1 0 -0.573576152 0 -0.819152176" group="329" layerMask="1">
@@ -187,46 +203,5 @@
         <Entity template="RescueZone" id="6741" pos="-7.37500048 0.0299999993 4" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="HVT EscapeZone" id="6743" pos="-8 0.0299999993 -6.00000048" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="Civ Flee Zone" id="6745" pos="-4.75 0.0299999993 -6.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
-        <Entity template="sedan_01_white" id="715" pos="4.33044529 0 4.09885502" rot="9.68575478e-08 0 -1.00000095 0 1 0 1.00000095 0 9.68575478e-08"/>
-        <Entity template="Alt. Spawn Point" id="3933" pos="5.49999952 0.00100000005 1.50000012" rot="-1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 -1"/>
-        <Entity template="Deploy Slot" id="4" pos="-8 0.100000001 -6.37500048" rot="1 0 7.4505806e-09 0 1 0 -7.4505806e-09 0 1" layerMask="2"/>
-        <Entity template="Deploy Slot" id="342" pos="-7.99999952 0.100000001 -4.37499952" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" layerMask="2"/>
-        <Entity template="Deploy Slot" id="343" pos="-8 0.100000001 -3.37500095" rot="1 0 3.20374966e-07 0 1 0 -3.20374966e-07 0 1" layerMask="2"/>
-        <Entity template="Deploy Slot" id="763" pos="-8 0.100000001 -5.37500048" rot="1 0 -2.23517382e-08 0 1 0 2.23517382e-08 0 1" group="57" layerMask="2"/>
-        <Entity template="humvee" id="4637" pos="-5.62500048 0 -8.75" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_topshield" id="4638" pos="-5.62500048 0 -8.75" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_door_frontleft" id="4639" pos="-4.43001366 0 -8.2699976" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_door_frontright" id="4640" pos="-6.81999636 0 -8.2749958" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_door_backleft" id="4641" pos="-4.43001175 0 -9.33498287" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_door_backright" id="4642" pos="-6.81999588 0 -9.3299818" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_glass_front" id="4643" pos="-5.62500048 0 -7.74999905" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_glass_door_frontleft" id="4644" pos="-4.43001366 0 -8.2699976" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_glass_door_frontright" id="4645" pos="-6.81999636 0 -8.2749958" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_glass_door_backright" id="4646" pos="-6.81999588 0 -9.3299818" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_cover" id="4647" pos="-5.62500048 0 -8.75" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="humvee_glass_door_backleft" id="4648" pos="-4.43001175 0 -9.33498287" rot="-1 0 -8.94069672e-08 0 1 0 8.94069672e-08 0 -1" group="420" layerMask="2"/>
-        <Entity template="Ranger Assaulter" id="4653" pos="-8 9.31322575e-10 -3.37500024" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Ranger Assaulter" id="4654" pos="-8 9.31322575e-10 -4.375" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Ranger Assaulter" id="4655" pos="-8 9.31322575e-10 -5.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Ranger Assaulter" id="4656" pos="-8 9.31322575e-10 -6.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Civ Flee Zone" id="6747" pos="-8.5 0.0299999993 6.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="HVT EscapeZone" id="6750" pos="-5 0.0299999993 6.00000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="RescueZone" id="6752" pos="-8 0.0299999993 -6.00000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
     </Entities>
 </Map>

@@ -23,20 +23,6 @@
         <Entity template="Default Effect (Indoors)" id="6" pos="-11.125 2 -15.999999" rot="1 -0 0 0 1 -0 0 0 1">
             <SoundShader effectID="EFX_REVERB_INDOOR" defaultIndoors="true" defaultOutdoors="false"/>
         </Entity>
-        <Entity template="RMG Building Shape" id="56" pos="-8 0.100000001 -5" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
-            <PolyShape num="5" p0="0 0 0" p1="16 0 0" p2="16 0 9" p3="0 0 9" p4="0 0 0"/>
-        </Entity>
-        <Entity template="RMG Building Entrance" id="57" pos="8.00000095 0.00100000005 -3.5" rot="1.56462193e-07 0 -1 0 1 0 1 0 1.56462193e-07" layerMask="1">
-            <Targets num="1" id0="56"/>
-            <RandStart tags="spawn_entrance" theme="apartment" addTerrainMask="true" addMovementBlockers="true" shapeFillMin="0.74299997">
-                <Limits>
-                    <Limit min="1" max="2" tags="bathroom"/>
-                    <Limit min="1" max="2" tags="bedroom"/>
-                    <Limit min="1" max="1" tags="kitchen"/>
-                    <Limit min="0" max="1" tags="hallway"/>
-                </Limits>
-            </RandStart>
-        </Entity>
         <Entity template="RMG Building Shape" id="7" pos="-4.5 0.100000001 5.5" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
             <PolyShape num="7" p0="0 0 0" p1="0 0 -3.00000048" p2="-4.5 0 -2.99999976" p3="-4.5 0 -11" p4="11.5 0 -11.000001" p5="11.5 0 0" p6="0 0 0"/>
         </Entity>
@@ -44,7 +30,21 @@
             <Targets num="1" id0="7"/>
             <RandStart tags="spawn_entrance" theme="apartment" addTerrainMask="true" addMovementBlockers="true" shapeFillMin="0.74299997">
                 <Limits>
-                    <Limit min="1" max="2" tags="bathroom"/>
+                    <Limit min="1" max="1" tags="bathroom"/>
+                    <Limit min="1" max="2" tags="bedroom"/>
+                    <Limit min="1" max="1" tags="kitchen"/>
+                    <Limit min="0" max="1" tags="hallway"/>
+                </Limits>
+            </RandStart>
+        </Entity>
+        <Entity template="RMG Building Shape" id="56" pos="-8 0.100000001 -5" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
+            <PolyShape num="5" p0="0 0 0" p1="16 0 0" p2="16 0 9" p3="0 0 9" p4="0 0 0"/>
+        </Entity>
+        <Entity template="RMG Building Entrance" id="57" pos="8.00000095 0.00100000005 -3.5" rot="1.56462193e-07 0 -1 0 1 0 1 0 1.56462193e-07" layerMask="1">
+            <Targets num="1" id0="56"/>
+            <RandStart tags="spawn_entrance" theme="apartment" addTerrainMask="true" addMovementBlockers="true" shapeFillMin="0.74299997">
+                <Limits>
+                    <Limit min="1" max="1" tags="bathroom"/>
                     <Limit min="1" max="2" tags="bedroom"/>
                     <Limit min="1" max="1" tags="kitchen"/>
                     <Limit min="0" max="1" tags="hallway"/>
