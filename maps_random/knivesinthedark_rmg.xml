@@ -1,0 +1,163 @@
+<Map name="@map_knivesinthedark">
+    <Scenario type="None" numDeployableTroops="4" referenceWinTimeSeconds="25" challenges="0" nightMission="false"/>
+    <Graphics fogColor="E8C47C" fogDensity="0" windSpeed="0.050000001" windDirection="45" cloudDensity="0" waterClarity="0.94999999" rainAmount="0" terrainNormalsStrength="1" terrainSharpness="0.5" gossaoStrength="3" gossaoStrengthTerrain="5" gossaoDirectionalOcclusion="0" gossaoLevelsMin="0.050000001"/>
+    <Terrain widthMeters="20" heightMeters="16">
+        <Materials num="2" mat0="tiles" mat1="cement_to_carpet_darkred"/>
+    </Terrain>
+    <MusicTracks/>
+    <Entities>
+        <Entity template="Floor" id="1" pos="-1 0 0" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="Default Effect (Outdoors)" id="8" pos="-14 2 -11" rot="1 -0 0 0 1 -0 0 0 1">
+            <SoundShader effectID="EFX_REVERB_OUTDOORS_BACKYARD" defaultIndoors="false" defaultOutdoors="true"/>
+        </Entity>
+        <Entity template="Default Effect (Indoors)" id="9" pos="-13 2 -11" rot="1 -0 0 0 1 -0 0 0 1">
+            <SoundShader effectID="EFX_REVERB_INDOOR" defaultIndoors="true" defaultOutdoors="false"/>
+        </Entity>
+        <Entity template="flower_stand_01" id="269" pos="5.62500048 0 2.1950016" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="flower_stand_01" id="270" pos="5.62500048 0 -1.20500016" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="flower_02" id="272" pos="5.87500048 0.641928315 -0.955000162" rot="0.819152176 0 0.57357645 0 1 -0 -0.573576391 0 0.819152057"/>
+        <Entity template="flower_02" id="273" pos="5.87500048 0.291928232 -1.33000016" rot="0.906307876 0 -0.42261824 0 1 0 0.42261824 -0 0.906307876"/>
+        <Entity template="flower_01" id="276" pos="5.87500048 0.641928315 2.0700016" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="flower_01" id="277" pos="5.62500048 0.54108417 2.44500184" scale="0.699999928" rot="0.866025388 0 0.49999994 0 1 -0 -0.5 0 0.866025507"/>
+        <Entity template="flower_02" id="279" pos="5.62500048 0.491928279 1.81999993" rot="0.766044497 0 0.642787576 0 1 -0 -0.642787576 0 0.766044497"/>
+        <Entity template="plant_interior_04" id="281" pos="5.37500048 0.542247891 2.0700016" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="plant_interior_04" id="282" pos="5.37500048 0.742247939 2.0700016" rot="0.906307876 0 0.42261827 0 1 -0 -0.42261827 0 0.906307876"/>
+        <Entity template="plant_interior_04" id="284" pos="5.62500048 0.542247891 -1.33000016" rot="0.819152117 0 0.573576391 0 1 -0 -0.573576391 0 0.819152117"/>
+        <Entity template="plant_interior_04" id="285" pos="5.62500048 0.494954526 -1.33000016" scale="0.799999952" rot="-0.866025269 0 0.500000298 0 1 0 -0.500000298 0 -0.866025269"/>
+        <Entity template="shrub_04_02" id="287" pos="5.50000048 0.425810695 -0.955000162" scale="0.899999976" rot="0.99619472 0 -0.087155737 0 1 0 0.087155737 -0 0.99619472"/>
+        <Entity template="shrub_04_02" id="288" pos="6 0.412474096 2.3200016" scale="0.799999952" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="metalcrate_c1" id="292" pos="8.125 0.480045974 -5.50000095" rot="-0.984807789 0 0.173648179 0 1 0 -0.173648179 0 -0.984807789"/>
+        <Entity template="booth_bazar_03_02" id="26" pos="8.625 0.989216328 6.25" rot="1.49011612e-07 0 1 0 1 -0 -1 0 1.49011612e-07"/>
+        <Entity template="decal_stain_small_04" id="162" pos="6.00000048 0.00999999978 1.625" rot="-0.087155588 0 0.99619472 0 1 0 -0.99619472 0 -0.087155588"/>
+        <Entity template="decal_debris_side_02" id="170" pos="8.375 0.00999999978 5" rot="1.04308128e-07 0 1 0 1 -0 -1 0 1.04308128e-07"/>
+        <Entity template="Deploy Slot" id="15" pos="8.25 0.100000001 -1.62500012" rot="0.906307876 0 -0.42261827 0 1 0 0.42261827 -0 0.906307876"/>
+        <Entity template="Deploy Slot" id="16" pos="8.25 0.100000001 -2.87500024" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="Deploy Slot" id="64" pos="8.25 0.100000001 -4" rot="-1 0 1.41561031e-07 0 1 0 -1.41561031e-07 0 -1"/>
+        <Entity template="Deploy Slot" id="148" pos="8.25 0.100000001 3.25" rot="-0.939692557 0 -0.342020243 0 1 0 0.342020243 0 -0.939692557"/>
+        <Entity template="Ranger Assaulter" id="159" pos="8.25 0 -1.62500012" rot="1 0 0 0 1 0 0 0 1">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Ranger Assaulter" id="165" pos="8.25 0 -2.87500024" rot="1 0 0 0 1 0 0 0 1">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Ranger Assaulter" id="168" pos="8.25 0 -4" rot="1 0 0 0 1 0 0 0 1">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Deploy Slot" id="178" pos="9.25 0.100000001 4" rot="0.342020273 0 0.939692557 0 1 -0 -0.939692557 0 0.342020273"/>
+        <Entity template="ambiance_city_01" id="309" pos="16.7116146 1.60000002 1.5097363" rot="1 0 0 0 1 0 0 0 1">
+            <SoundEmitter minAttenuationDistance="12" maxAttenuationDistance="17.9"/>
+        </Entity>
+        <Entity template="cars_passing_by" id="311" pos="28.9969501 1.60000002 6.56066656" rot="1 0 0 0 1 0 0 0 1">
+            <SoundEmitter minAttenuationDistance="19.1" maxAttenuationDistance="27.799999"/>
+        </Entity>
+        <Entity template="room_tone_market_near_noise" id="313" pos="10.2495213 1.60000002 -14.5974998" rot="1 0 0 0 1 0 0 0 1">
+            <SoundEmitter minAttenuationDistance="6.3000002" maxAttenuationDistance="13.8"/>
+        </Entity>
+        <Entity template="city_ambience_a" id="316" pos="-1.24876833 1.60000002 -10.3771477" rot="1 0 0 0 1 0 0 0 1">
+            <SoundEmitter minAttenuationDistance="6" maxAttenuationDistance="8.5"/>
+        </Entity>
+        <Entity template="dog_barking" id="318" pos="-18.9436684 1.60000002 2.47945452" rot="1 0 0 0 1 0 0 0 1">
+            <SoundEmitter minAttenuationDistance="8.8000002" maxAttenuationDistance="15.2"/>
+        </Entity>
+        <Entity template="far_rural_ambience_mn" id="324" pos="-25.609272 1.60000002 2.99314499" rot="1 0 0 0 1 0 0 0 1">
+            <SoundEmitter minAttenuationDistance="14" maxAttenuationDistance="20.299999"/>
+        </Entity>
+        <Entity template="Ranger Assaulter" id="6" pos="8.375 0 3.25000024" rot="1 0 0 0 1 0 0 0 1">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="decal_scratches_large_03" id="321" pos="8.25 0.00999999978 -5.625" rot="0.866025388 0 0.49999994 0 1 -0 -0.5 0 0.866025507"/>
+        <Entity template="decal_stain_large_03" id="329" pos="10.5 0.00999999978 1.87500012" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="decal_stain_large_01" id="333" pos="9.625 0.00999999978 -6.50000048" rot="-0.990268052 0 0.139173687 0 1 0 -0.139173687 0 -0.990268052"/>
+        <Entity template="manhole_01_03" id="335" pos="9.75 0.00999999978 -2.25" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="pole_metal_light_01" id="337" pos="8.375 0 -7.75000048" rot="-1 0 0 0 1 0 0 0 -1"/>
+        <Entity template="flower_02" id="274" pos="5.50000048 0.574698925 -1.08000016" scale="0.799999952" rot="-0.422618091 0 0.906307817 0 1 0 -0.906307936 0 -0.422618151"/>
+        <Entity template="decal_stain_small_03" id="157" pos="6.12500048 0.00999999978 0.375" rot="-0.087155588 0 0.99619472 0 1 0 -0.99619472 0 -0.087155588"/>
+        <Entity template="light_wall_01" id="152" pos="5.12500048 1.77935445 -0.25" rot="2.16066837e-07 0 1.00000036 0 1 0 -1.00000036 0 2.16066837e-07"/>
+        <Entity template="RMG Building Entrance" id="18" pos="5.00000048 0.00100000005 0.50000006" rot="1.56462193e-07 0 -1 0 1 0 1 0 1.56462193e-07">
+            <Targets num="1" id0="14"/>
+            <RandStart tags="entrance" theme="residential" addTerrainMask="true" shapeFillMin="0.801">
+                <Limits>
+                    <Limit min="0" max="0" tags="balcony"/>
+                    <Limit min="1" max="2" tags="bathroom"/>
+                    <Limit min="1" max="2" tags="bedroom"/>
+                    <Limit min="0" max="1" tags="hallway"/>
+                    <Limit min="1" max="1" tags="kitchen"/>
+                    <Limit min="0" max="2" tags="storage"/>
+                </Limits>
+            </RandStart>
+        </Entity>
+        <Entity template="RMG Anchor" id="1816" pos="4.875 0.00100000005 3.00000048" rot="1 0 0 0 1 0 0 0 1">
+            <RandAnchor tags="" mandatory="false"/>
+        </Entity>
+        <Entity template="RMG Anchor" id="1817" pos="4.875 0.00100000005 2.00000048" rot="1 0 0 0 1 0 0 0 1">
+            <RandAnchor tags="" mandatory="false"/>
+        </Entity>
+        <Entity template="RMG Anchor" id="1818" pos="4.875 0.00100000005 1" rot="1 0 0 0 1 0 0 0 1">
+            <RandAnchor tags="" mandatory="false"/>
+        </Entity>
+        <Entity template="RMG Anchor" id="1819" pos="4.875 0.00100000005 0" rot="1 0 0 0 1 0 0 0 1">
+            <RandAnchor tags="" mandatory="false"/>
+        </Entity>
+        <Entity template="RMG Anchor" id="1820" pos="4.875 0.00100000005 -0.999999523" rot="1 0 0 0 1 0 0 0 1">
+            <RandAnchor tags="" mandatory="false"/>
+        </Entity>
+        <Entity template="RMG Anchor" id="1821" pos="4.875 0.00100000005 -1.99999952" rot="1 0 0 0 1 0 0 0 1">
+            <RandAnchor tags="" mandatory="false"/>
+        </Entity>
+        <Entity template="Terrain" id="5" pos="7.12500048 0 -8" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="9" p0="0 0 0" p1="0 0 6.25" p2="-2.12500048 0 6.25" p3="-2.12500048 0 11.25" p4="0 0 11.25" p5="0 0 16.25" p6="2.87499952 0 16.25" p7="2.87499952 0 0" p8="0 0 0"/>
+        </Entity>
+        <Entity template="RMG Building Shape" id="7215" pos="4.75 0.100000001 -8" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="5" p0="0 0 0" p1="2.87500048 0 0" p2="2.87500048 0 17.625" p3="0.125 0 17.625" p4="0 0 0"/>
+        </Entity>
+        <Entity template="fence_stone__pole_02" id="4795" pos="7.37500095 0 2.99999952" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="fence_stone__pole_02" id="4796" pos="5.37500048 0 2.99999952" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="fence_stone_02" id="327" pos="7.37500095 0 -8.75" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="4">
+                <Branch parent="0" p0="0 0" p1="0 0.874999523" p2="-4.76837158e-07 6.75" p3="-2.00000048 6.75"/>
+            </Wall>
+        </Entity>
+        <Entity template="fence_stone__pole_02" id="4800" pos="7.37500048 0 -2" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="fence_stone__pole_02" id="4801" pos="5.37500048 0 -2.00000024" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="RMG Building Shape" id="459" pos="-9.75 0.100000001 7.75000048" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="9" p0="0 0 0" p1="16.5 0 0" p2="16.5 0 -4.125" p3="14.5 0 -4.125" p4="14.5 0 -10.375001" p5="16.5 0 -10.375001" p6="16.5 0 -15.500001" p7="0 0 -15.500001" p8="0 0 0"/>
+        </Entity>
+        <Entity template="RescueZone" id="6542" pos="7 0.0299999993 0.5" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="RMG Building Shape" id="14" pos="7.00000095 0.100000001 -8" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="9" p0="0 0 0" p1="-4.76837158e-07 0 5.62499952" p2="-2.00000095 0 5.625" p3="-2.00000095 0 11.375" p4="-4.76837158e-07 0 11.375" p5="-4.76837158e-07 0 16" p6="-17 0 16" p7="-17 0 4.76837158e-07" p8="0 0 0"/>
+        </Entity>
+        <Entity template="Light Ambiental" id="7" pos="-15.8750019 2 -12.25" rot="0.99999994 -0 0 0 0.99999994 -0 0 0 0.999999881" group="3">
+            <Light color0="FFFFFF" color1="818181" colorMultiplier="0.34999999" isIndoorLight="true" startDisabled="false"/>
+        </Entity>
+        <Entity template="Light Directional" id="10" pos="-13.8750019 2 -12.25" rot="0.742345572 -0.485667855 -0.461573213 0.180577427 0.808429301 -0.560208678 0.64522469 0.332518786 0.68783462" group="3">
+            <Light color="FCEEDC" colorMultiplier="1.75" isIndoorLight="false" startDisabled="false"/>
+        </Entity>
+        <Entity template="Light Ambiental" id="11" pos="-14.8750019 2 -12.25" rot="0.99999994 -0 0 0 0.99999994 -0 0 0 0.999999881" group="3">
+            <Light color0="FFFFFF" color1="818181" colorMultiplier="0.60000002" isIndoorLight="false" startDisabled="false"/>
+        </Entity>
+        <Entity template="Map Graphics" id="12" pos="-16.6250019 0.00999999978 -12.25" rot="1 0 0 0 1 0 0 0 1" group="3" windSpeed="0.050000001" windDirection="45" cloudDensity="0" rainAmount="0" waterClarity="0.94999999">
+            <MapGfx/>
+        </Entity>
+        <Entity template="HVT EscapeZone" id="17" pos="9 0.0299999993 0.5" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="Limit Area" id="19" pos="7.12500048 0.100000001 3.25000024" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="9" p0="0 0 0" p1="0 0 4.75" p2="-17.125 0 4.75" p3="-17.125 0 -11.25" p4="0 0 -11.25" p5="0 0 -5.5" p6="-2 0 -5.5" p7="-2 0 0" p8="0 0 0"/>
+        </Entity>
+        <Entity template="Danger Area" id="20" pos="7.12500048 0.100000001 3.25000024" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="9" p0="0 0 0" p1="0 0 4.75" p2="-17.125 0 4.75" p3="-17.125 0 -11.25" p4="0 0 -11.25" p5="0 0 -5.5" p6="-2 0 -5.5" p7="-2 0 0" p8="0 0 0"/>
+        </Entity>
+        <Entity template="fence_stone_02" id="325" pos="7.37500048 0 8.5" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="4">
+                <Branch parent="0" p0="0 -0.5" p1="0 0.75"/>
+                <Branch parent="0" p2="0 -5.5" p3="-2 -5.5"/>
+            </Wall>
+        </Entity>
+    </Entities>
+</Map>
