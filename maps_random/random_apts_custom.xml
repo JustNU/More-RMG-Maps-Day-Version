@@ -1,11 +1,11 @@
 <Map name="Random Apartment 2">
     <Scenario type="ClearHostiles" numDeployableTroops="0" referenceWinTimeSeconds="0" challenges="0" nightMission="false"/>
     <Graphics fogColor="E8C47C" fogDensity="0.25" windSpeed="0.050000001" windDirection="45" cloudDensity="0" waterClarity="0.94999999" rainAmount="0" terrainNormalsStrength="1" terrainSharpness="0.5" gossaoStrength="3" gossaoStrengthTerrain="5" gossaoDirectionalOcclusion="0" gossaoLevelsMin="0.050000001"/>
-    <Terrain widthMeters="30" heightMeters="18">
+    <Terrain widthMeters="30" heightMeters="30">
         <Materials num="1" mat0="dirt_to_asphalt"/>
     </Terrain>
     <MusicTracks/>
-    <Layers used="3"/>
+    <Layers used="7"/>
     <Entities>
         <Entity template="Floor" id="1" pos="-1.5 0 0" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Light Ambiental" id="2" pos="-15.125 2 -15.999999" rot="1 -0 0 0 1 -0 0 0 1">
@@ -23,6 +23,21 @@
         <Entity template="Default Effect (Indoors)" id="6" pos="-11.125 2 -15.999999" rot="1 -0 0 0 1 -0 0 0 1">
             <SoundShader effectID="EFX_REVERB_INDOOR" defaultIndoors="true" defaultOutdoors="false"/>
         </Entity>
+        <Entity template="RMG Building Shape" id="8" pos="-7 0.100000001 -5" rot="1 0 0 0 1 0 0 0 1" layerMask="4">
+            <PolyShape num="7" p0="0 0 0" p1="15.5 0 4.76837158e-07" p2="15.5 0 9.00000095" p3="13.000001 0 9.00000095" p4="13.000001 0 10" p5="0 0 10" p6="0 0 0"/>
+        </Entity>
+        <Entity template="RMG Building Entrance" id="11" pos="-5.5 0.00100000005 -5" rot="1 0 0 0 1 0 0 0 1" layerMask="4">
+            <Targets num="1" id0="8"/>
+            <RandStart tags="spawn_entrance" theme="apartment" addTerrainMask="true" addMovementBlockers="true" shapeFillMin="0.74299997">
+                <Limits>
+                    <Limit min="1" max="1" tags="bathroom"/>
+                    <Limit min="1" max="2" tags="bedroom"/>
+                    <Limit min="1" max="1" tags="kitchen"/>
+                    <Limit min="0" max="1" tags="hallway"/>
+                    <Limit min="0" max="1" tags="balcony"/>
+                </Limits>
+            </RandStart>
+        </Entity>
         <Entity template="RMG Building Shape" id="7" pos="-4.5 0.100000001 5.5" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
             <PolyShape num="7" p0="0 0 0" p1="0 0 -3.00000048" p2="-4.5 0 -2.99999976" p3="-4.5 0 -11" p4="11.5 0 -11.000001" p5="11.5 0 0" p6="0 0 0"/>
         </Entity>
@@ -34,6 +49,7 @@
                     <Limit min="1" max="2" tags="bedroom"/>
                     <Limit min="1" max="1" tags="kitchen"/>
                     <Limit min="0" max="1" tags="hallway"/>
+                    <Limit min="0" max="1" tags="balcony"/>
                 </Limits>
             </RandStart>
         </Entity>
@@ -48,6 +64,7 @@
                     <Limit min="1" max="2" tags="bedroom"/>
                     <Limit min="1" max="1" tags="kitchen"/>
                     <Limit min="0" max="1" tags="hallway"/>
+                    <Limit min="0" max="1" tags="balcony"/>
                 </Limits>
             </RandStart>
         </Entity>
