@@ -5,6 +5,7 @@
 		<Map source="data/maps_random/rescueatdawn_rmg.xml"/>
 		<Map source="data/maps_random/killingtime_rmg.xml"/>
 		<Map source="data/maps_random/gatecrashers_rmg.xml"/>
+		<Map source="data/maps_random/twoofspades_rmg2.xml"/>
 		<Map source="data/maps_random/twoofspades_rmg3.xml"/>
 	</Bundle>
 </Maps>
