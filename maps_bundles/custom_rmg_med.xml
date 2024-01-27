@@ -7,5 +7,6 @@
 		<Map source="data/maps_random/gatecrashers_rmg.xml"/>
 		<Map source="data/maps_random/twoofspades_rmg2.xml"/>
 		<Map source="data/maps_random/twoofspades_rmg3.xml"/>
+		<Map source="data/maps_random/RMG_exchange.xml"/>
 	</Bundle>
 </Maps>

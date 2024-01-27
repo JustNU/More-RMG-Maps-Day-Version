@@ -624,54 +624,6 @@
         <Entity template="door_metal_sheet" id="25" pos="-5.62500143 0 0.500008523" rot="1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 1" group="464" layerMask="4"/>
         <Entity template="door_frame_grate_01" id="26" pos="-5.62500143 0 0.500008523" rot="1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 1" group="464" layerMask="4"/>
         <Entity template="door_threshold_grate_01" id="27" pos="-5.62500143 0 0.500008523" rot="1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 1" group="464" layerMask="4"/>
-        <Entity template="RMG Building Shape" id="2" pos="8 0.100000001 6.62500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <PolyShape num="11" p0="0 0 0" p1="4.12500095 0 0" p2="5.12500048 0 -1" p3="5.12500048 0 -5.37500048" p4="5.12500048 0 -12.625001" p5="0 0 -12.625001" p6="0 0 -10.625" p7="0 0 -10.625" p8="0 0 -1.62500048" p9="0 0 -1.62500048" p10="0 0 0"/>
-        </Entity>
-        <Entity template="RMG Building Entrance" id="9" pos="8 0.00100000005 5.50000048" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2">
-            <Targets num="10" id0="2" id1="1670" id2="1787" id3="2103" id4="2652" id5="2830" id6="3002" id7="3122" id8="3761" id9="4799"/>
-            <RandStart tags="entrance" theme="residential" shapeFillMin="0.70700002" enemyStrengthScale="0.40599999">
-                <Limits>
-                    <Limit min="0" max="2" tags="hallway"/>
-                    <Limit min="0" max="1" tags="bathroom"/>
-                </Limits>
-            </RandStart>
-        </Entity>
-        <Entity template="Alt. Spawn Point" id="1670" pos="8 0.00100000005 4.49999952" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="1787" pos="8 0.00100000005 3.50000024" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="2103" pos="8 0.00100000005 2.5" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="2652" pos="8 0.00100000005 1.49999988" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="2830" pos="8 0.00100000005 0.5" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="3002" pos="8 0.00100000005 -1.50000024" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="3122" pos="8 0.00100000005 -2.50000024" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="3761" pos="8 0.00100000005 -3.50000072" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="4799" pos="8 0.00100000005 -4.5" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
-        <Entity template="RMG Building Shape" id="1305" pos="-2.62500024 0.100000001 2.62500024" rot="1 0 0 0 1 0 0 0 1" layerMask="536870912">
-            <PolyShape num="5" p0="0 0 0" p1="8.75000095 0 0" p2="8.75000095 0 -6.625" p3="0 0 -6.50000048" p4="0 0 0"/>
-        </Entity>
-        <Entity template="Alt. Spawn Point" id="2135" pos="6.12500048 0.00100000005 -1.62500024" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="2613" pos="-1.50000012 0.00100000005 2.62500024" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="2790" pos="6.12500048 0.00100000005 -2.5" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="2902" pos="5.50000048 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="3023" pos="4.49999952 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="3571" pos="3.49999976 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="3719" pos="1.49999988 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="3847" pos="0.5 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="3940" pos="-0.500000119 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="4044" pos="-2.62500048 0.00100000005 -2.5" rot="4.76837158e-07 0 1 0 1 0 -1 0 4.76837158e-07" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="4122" pos="1.49999988 0.00100000005 2.62500024" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="4476" pos="4.87499952 0.00100000005 2.62500024" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="4576" pos="6.12500048 0.00100000005 1.49999988" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="4739" pos="6.12500048 0.00100000005 0.5" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="4884" pos="6.12500048 0.00100000005 -0.500000119" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
-        <Entity template="RMG Building Entrance" id="5410" pos="-2.62500024 0.00100000005 -1.50000012" rot="4.76837158e-07 0 1 0 1 0 -1 0 4.76837158e-07" layerMask="536870912">
-            <Targets num="16" id0="1305" id1="2613" id2="4122" id3="4476" id4="4576" id5="4739" id6="4884" id7="2135" id8="2790" id9="2902" id10="3023" id11="3571" id12="3719" id13="3847" id14="3940" id15="4044"/>
-            <RandStart tags="entrance" theme="residential" shapeFillMin="0.67900002" enemyStrengthScale="0.44800001">
-                <Limits>
-                    <Limit min="0" max="1" tags="hallway"/>
-                    <Limit min="0" max="1" tags="bathroom"/>
-                </Limits>
-            </RandStart>
-        </Entity>
         <Entity template="RMG Building Entrance" id="5" pos="8.25 0.00100000005 -4.5" rot="0 0 1 0 1 0 -1 0 0" layerMask="1">
             <Targets num="8" id0="20" id1="4191" id2="5616" id3="6087" id4="2525" id5="1530" id6="4240" id7="1174"/>
             <RandStart tags="entrance" theme="compound" shapeFillMin="0.69999999" enemyStrengthScale="0.60100001">
@@ -684,12 +636,6 @@
         <Entity template="RMG Building Shape" id="20" pos="8.375 0.100000001 6.62500048" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
             <PolyShape num="11" p0="0 0 0" p1="3.75000095 0 0" p2="4.75000095 0 -1" p3="4.75000095 0 -5.37500048" p4="4.75000095 0 -12.625001" p5="0 0 -12.625001" p6="0 0 -10.000001" p7="0 0 -10.000001" p8="0 0 -1.75000048" p9="0 0 -1.75000048" p10="0 0 0"/>
         </Entity>
-        <Entity template="door_metal_sheet_locked" id="31" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
-        <Entity template="door_frame_grate_01" id="32" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
-        <Entity template="door_threshold_grate_01" id="33" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
-        <Entity template="door_threshold_grate_01" id="43" pos="-3.0000093 0 3.75000238" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="473" layerMask="32"/>
-        <Entity template="door_grate_01_locked" id="44" pos="-3.0000093 0 3.75000238" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="473" layerMask="32"/>
-        <Entity template="door_frame_grate_01" id="45" pos="-3.00001025 0 3.75000215" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="473" layerMask="32"/>
         <Entity template="Alt. Spawn Point" id="1174" pos="8.24999905 0.00100000005 -3.50000024" rot="0 0 1 0 1 0 -1 0 0" layerMask="1"/>
         <Entity template="Alt. Spawn Point" id="1530" pos="8.24999905 0.00100000005 -1.50000024" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" layerMask="1"/>
         <Entity template="Alt. Spawn Point" id="2525" pos="8.24999905 0.00100000005 0.5" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" layerMask="1"/>
@@ -714,5 +660,62 @@
         <Entity template="Alt. Spawn Point" id="7648" pos="6.12500048 0.00100000005 -1.50000024" rot="-3.12924385e-07 0 -1 0 1 0 1 0 -3.12924385e-07" layerMask="268435456"/>
         <Entity template="Alt. Spawn Point" id="7788" pos="6.12500048 0.00100000005 -2.5" rot="-3.12924385e-07 0 -1 0 1 0 1 0 -3.12924385e-07" layerMask="268435456"/>
         <Entity template="Alt. Spawn Point" id="7906" pos="-2.62500048 0.00100000005 -2.5" rot="6.55651036e-07 0 1 0 1 0 -1 0 6.55651036e-07" layerMask="268435456"/>
+        <Entity template="Danger Area" id="1" pos="-9 0.100000001 0.5" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="8" p0="0 0 0" p1="6 0 0" p2="6 0 6.50000048" p3="21.125 0 6.50000048" p4="22.5 0 5.25000048" p5="22.5 0 -6.87500048" p6="0 0 -6.87500048" p7="0 0 0"/>
+        </Entity>
+        <Entity template="RMG Building Shape" id="2" pos="8 0.100000001 6.62500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <PolyShape num="11" p0="0 0 0" p1="4.12500095 0 0" p2="5.12500048 0 -1" p3="5.12500048 0 -5.37500048" p4="5.12500048 0 -12.625001" p5="0 0 -12.625001" p6="0 0 -10.625" p7="0 0 -10.625" p8="0 0 -1.62500048" p9="0 0 -1.62500048" p10="0 0 0"/>
+        </Entity>
+        <Entity template="RMG Building Entrance" id="9" pos="8 0.00100000005 5.50000048" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2">
+            <Targets num="10" id0="2" id1="1670" id2="1787" id3="2103" id4="2652" id5="2830" id6="3002" id7="3122" id8="3761" id9="4799"/>
+            <RandStart tags="entrance" theme="residential" shapeFillMin="0.70700002" enemyStrengthScale="0.40599999">
+                <Limits>
+                    <Limit min="0" max="2" tags="hallway"/>
+                    <Limit min="0" max="1" tags="bathroom"/>
+                </Limits>
+            </RandStart>
+        </Entity>
+        <Entity template="door_metal_sheet_locked" id="31" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
+        <Entity template="door_frame_grate_01" id="32" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
+        <Entity template="door_threshold_grate_01" id="33" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
+        <Entity template="door_threshold_grate_01" id="43" pos="-3.0000093 0 3.75000238" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="473" layerMask="32"/>
+        <Entity template="door_grate_01_locked" id="44" pos="-3.0000093 0 3.75000238" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="473" layerMask="32"/>
+        <Entity template="door_frame_grate_01" id="45" pos="-3.00001025 0 3.75000215" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="473" layerMask="32"/>
+        <Entity template="RMG Building Shape" id="1305" pos="-2.62500024 0.100000001 2.62500024" rot="1 0 0 0 1 0 0 0 1" layerMask="536870912">
+            <PolyShape num="5" p0="0 0 0" p1="8.75000095 0 0" p2="8.75000095 0 -6.625" p3="0 0 -6.50000048" p4="0 0 0"/>
+        </Entity>
+        <Entity template="Alt. Spawn Point" id="1670" pos="8 0.00100000005 4.49999952" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="1787" pos="8 0.00100000005 3.50000024" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="2103" pos="8 0.00100000005 2.5" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="2135" pos="6.12500048 0.00100000005 -1.62500024" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="2613" pos="-1.50000012 0.00100000005 2.62500024" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="2652" pos="8 0.00100000005 1.49999988" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="2790" pos="6.12500048 0.00100000005 -2.5" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="2830" pos="8 0.00100000005 0.5" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="2902" pos="5.50000048 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="3002" pos="8 0.00100000005 -1.50000024" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="3023" pos="4.49999952 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="3122" pos="8 0.00100000005 -2.50000024" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="3571" pos="3.49999976 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="3719" pos="1.49999988 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="3761" pos="8 0.00100000005 -3.50000072" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="3847" pos="0.5 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="3940" pos="-0.500000119 0.00100000005 -4" rot="1 0 -3.35276098e-07 0 1 0 3.35276098e-07 0 1" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="4044" pos="-2.62500048 0.00100000005 -2.5" rot="4.76837158e-07 0 1 0 1 0 -1 0 4.76837158e-07" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="4122" pos="1.49999988 0.00100000005 2.62500024" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="4476" pos="4.87499952 0.00100000005 2.62500024" rot="-1 0 1.7136334e-07 0 1 0 -1.7136334e-07 0 -1" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="4576" pos="6.12500048 0.00100000005 1.49999988" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="4739" pos="6.12500048 0.00100000005 0.5" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="4799" pos="8 0.00100000005 -4.5" rot="1.56462193e-07 0 1 0 1 0 -1 0 1.56462193e-07" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="4884" pos="6.12500048 0.00100000005 -0.500000119" rot="-1.56462193e-07 0 -1 0 1 0 1 0 -1.56462193e-07" layerMask="536870912"/>
+        <Entity template="RMG Building Entrance" id="5410" pos="-2.62500024 0.00100000005 -1.50000012" rot="4.76837158e-07 0 1 0 1 0 -1 0 4.76837158e-07" layerMask="536870912">
+            <Targets num="16" id0="1305" id1="2613" id2="4122" id3="4476" id4="4576" id5="4739" id6="4884" id7="2135" id8="2790" id9="2902" id10="3023" id11="3571" id12="3719" id13="3847" id14="3940" id15="4044"/>
+            <RandStart tags="entrance" theme="residential" shapeFillMin="0.67900002" enemyStrengthScale="0.44800001">
+                <Limits>
+                    <Limit min="0" max="1" tags="hallway"/>
+                    <Limit min="0" max="1" tags="bathroom"/>
+                </Limits>
+            </RandStart>
+        </Entity>
     </Entities>
 </Map>

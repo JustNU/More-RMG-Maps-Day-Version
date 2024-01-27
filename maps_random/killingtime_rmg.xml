@@ -455,8 +455,8 @@
         <Entity template="bus_01_window_01" id="177" pos="13.6749039 -0.00182557106 -5.70860624" rot="-0.0871555954 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555954" group="2" layerMask="16"/>
         <Entity template="bus_01_window_02" id="178" pos="15.1106606 0 -5.86609888" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
         <Entity template="bus_01_window_01" id="179" pos="15.2939739 -0.00182557106 -3.54629183" rot="0.0871555954 0 -0.99619472 0 1 0 0.99619472 -0 0.0871555954" group="2" layerMask="16"/>
-        <Entity template="RMG Building Shape" id="4927" pos="-4 0.100000001 0.87500006" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <PolyShape num="5" p0="0 0 0" p1="0 0 -1.62500012" p2="-0.5 0 -1.62500012" p3="-0.5 0 0" p4="0 0 0"/>
+        <Entity template="RMG Building Shape" id="4927" pos="-3.75 0.100000001 0.875000179" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <PolyShape num="5" p0="0 0 0" p1="-2.38418579e-07 0 -1.87500024" p2="-1 0 -1.875" p3="-1 0 0" p4="0 0 0"/>
         </Entity>
         <Entity template="Movement Blocker" id="498" pos="17.125 0 -9.5" rot="-1 0 0 0 1 0 0 0 -1">
             <Wall numTrees="1" numNodes="12">
@@ -468,9 +468,6 @@
         <Entity template="bush_05" id="16" pos="3.31844807 0 1.12648726" scale="0.799999952" rot="0.882947743 0 -0.469471335 0 1 0 0.469471335 0 0.882947743" layerMask="1"/>
         <Entity template="bush_05" id="19" pos="6.31844807 0 -0.373512775" scale="0.799999952" rot="0.0348997451 0 -0.9993909 0 1 0 0.9993909 0 0.0348997451" layerMask="1"/>
         <Entity template="bush_05" id="22" pos="12.443449 0 -0.123512745" scale="0.799999952" rot="-0.453990757 0 0.89100647 0 1 0 -0.89100647 0 -0.453990757" layerMask="1"/>
-        <Entity template="door_metal_sheet" id="34" pos="-12.625001 0 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
-        <Entity template="door_frame_grate_01" id="35" pos="-12.625001 1.31107925e-08 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
-        <Entity template="door_threshold_grate_01" id="36" pos="-12.625001 1.31108173e-08 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
         <Entity template="blocks_bricks_cylinders_pile_02" id="772" pos="4.375 0.0100002289 1.125" rot="0.74314487 0 0.669130623 0 1 0 -0.669130623 0 0.74314487" layerMask="1"/>
         <Entity template="blocks_bricks_metalsheet_papers_carton_pile_01" id="807" pos="5.61352825 0.0100002289 0.749982595" rot="0.453990668 0 -0.89100647 0 1 0 0.89100647 0 0.453990668" layerMask="1"/>
         <Entity template="blocks_bricks_papers_crates_planks_pile_03" id="810" pos="5.21210194 0.0100002289 1.69122696" rot="0.74314487 0 0.669130623 0 1 0 -0.669130623 0 0.74314487" layerMask="1"/>
@@ -781,6 +778,9 @@
         <Entity template="tire_tractor" id="2428" pos="11.1741791 0.495326519 1.96338534" rot="0.998629212 0 -0.0523428619 0 1 0 0.0523428619 0 0.998629212" layerMask="1"/>
         <Entity template="blocks_bricks_cylinders_pile_06" id="2429" pos="10.1922703 0.00999999046 -0.231406659" rot="-0.788011193 0 0.615660906 0 1 0 -0.615660906 0 -0.788011193" layerMask="1"/>
         <Entity template="tire_tractor" id="2430" pos="11.6143808 0.968959332 1.19692373" rot="0.601808667 0 -0.798640311 0 1 0 0.798640311 0 0.601808667" layerMask="1"/>
+        <Entity template="door_metal_sheet" id="34" pos="-12.625001 0 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
+        <Entity template="door_frame_grate_01" id="35" pos="-12.625001 1.31107925e-08 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
+        <Entity template="door_threshold_grate_01" id="36" pos="-12.625001 1.31108173e-08 -0.375" rot="1 0 0 0 1 0 0 0 1" group="62" layerMask="512"/>
         <Entity template="militaryvehicle" id="5252" pos="-10.500001 3.57627869e-07 -4.5" rot="0.0871558264 0 -0.99619478 0 1 0 0.99619478 0 0.0871558264" group="47" layerMask="4"/>
         <Entity template="militaryvehicle_door_frontleft" id="5253" pos="-9.94451714 0 -6.04222536" rot="-0.866025329 0 -0.500000238 0 1 0 0.500000238 0 -0.866025329" group="47" layerMask="4"/>
         <Entity template="militaryvehicle_door_frontright" id="5254" pos="-9.55101109 0 -3.11344767" rot="0.99619472 0 -0.0871556327 0 1 0 0.0871556327 0 0.99619472" group="47" layerMask="4"/>

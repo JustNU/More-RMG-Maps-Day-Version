@@ -757,6 +757,9 @@
         </Entity>
         <Entity template="fence_metal_02" id="3080" pos="13.125001 1.5866398e-08 -0.625000119" rot="-0.939692557 0 0.342020512 0 1 0 -0.342020512 0 -0.939692557"/>
         <Entity template="shrub_02" id="7445" pos="13.125001 0.177140579 6.37499952" rot="1 0 0 0 1 0 0 0 1" group="471"/>
+        <Entity template="Danger Area" id="314" pos="-13.000001 0.100000001 6.87500048" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="5" p0="0 0 0" p1="26.6250019 0 0" p2="26.6250019 0 -16.125" p3="0 0 -16.125" p4="0 0 0"/>
+        </Entity>
         <Entity template="RMG Building Entrance" id="5" pos="5 0.00100000005 -3.50000024" rot="1.56462178e-07 0 1 0 1 0 -1 0 1.56462178e-07" layerMask="2">
             <Targets num="8" id0="128" id1="6537" id2="872" id3="4596" id4="1720" id5="3508" id6="3803" id7="3931"/>
             <RandStart tags="entrance" theme="compound" shapeFillMin="0.71399999" enemyStrengthScale="0.51499999">
