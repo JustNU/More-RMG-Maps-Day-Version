@@ -5,7 +5,7 @@
         <Materials num="2" mat0="dirt_to_grass" mat1="asphalt"/>
     </Terrain>
     <MusicTracks/>
-    <Layers used="536870913" l0="1"/>
+    <Layers used="536870912"/>
     <Entities>
         <Entity template="Light Ambiental" id="2" pos="-7.25 2.0999999 -8.5" rot="1 0 0 0 1 0 0 0 1">
             <Light color0="4F626A" color1="1D2E42" colorMultiplier="1.52" isIndoorLight="false" startDisabled="false"/>
@@ -237,14 +237,14 @@
         <Entity template="grass_01" id="938" pos="-3.00000024 0 0" rot="0.99984771 0 -0.0174539089 0 1 0 0.0174539089 0 0.99984771"/>
         <Entity template="grass_01" id="939" pos="-2 0 1" rot="1.55717134e-06 0 1 0 1 0 -1 0 1.55717134e-06"/>
         <Entity template="grass_01" id="940" pos="-4 0 1" rot="-0.809016109 0 0.587786555 0 1 0 -0.587786555 0 -0.809016109"/>
-        <Entity template="Terrain" id="1363" pos="9 0 6.00000048" rot="1 0 0 0 1 0 0 0 1" group="318" layerMask="1">
+        <Entity template="RMG Building Shape" id="20" pos="-5 0.100000001 -5.50000048" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="8" p0="0 0 0" p1="0 0 7.00000048" p2="5.875 0 7.00000048" p3="5.875 0 8.50000095" p4="12 0 8.50000095" p5="12 0 2.00000024" p6="12 0 0" p7="0 0 0"/>
+        </Entity>
+        <Entity template="Terrain" id="1363" pos="9 0 6.00000048" rot="1 0 0 0 1 0 0 0 1" group="318">
             <PolyShape num="10" p0="0 0 0" p1="0 0 -12.000001" p2="-0.875 0 -11.875001" p3="-3.87499952 0 -11.500001" p4="-4 0 -11.625001" p5="-14.125 0 -11.625001" p6="-14.125 0 -11.375001" p7="-18 0 -11.375001" p8="-18 0 0" p9="0 0 0"/>
         </Entity>
-        <Entity template="Danger Area" id="2386" pos="-5 0.100000001 1.50000012" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
+        <Entity template="Danger Area" id="2386" pos="-5 0.100000001 1.50000012" rot="1 0 0 0 1 0 0 0 1">
             <PolyShape num="10" p0="0 0 0" p1="5.875 0 0" p2="5.875 0 1.50000012" p3="12 0 1.50000012" p4="12 0 -0.375" p5="14 0 -0.375000119" p6="13.875 0 -7.50000048" p7="10.125 0 -7.00000048" p8="0 0 -7.00000048" p9="0 0 0"/>
-        </Entity>
-        <Entity template="RMG Building Shape" id="20" pos="-5 0.100000001 -5.50000048" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
-            <PolyShape num="8" p0="0 0 0" p1="0 0 7.00000048" p2="5.875 0 7.00000048" p3="5.875 0 8.50000095" p4="12 0 8.50000095" p5="12 0 2.00000024" p6="12 0 0" p7="0 0 0"/>
         </Entity>
         <Entity template="blocks_bricks_cylinders_pile_02" id="49" pos="-4.375 0.00999999978 -4.875" rot="0.984807789 0 0.173648164 0 1 0 -0.173648164 0 0.984807789" layerMask="536870912"/>
         <Entity template="blocks_bricks_metalsheet_papers_carton_pile_01" id="50" pos="-3.12593937 0.00999999978 -4.53671265" rot="-0.0871555805 0 -0.99619472 0 1 0 0.99619472 0 -0.0871555805" layerMask="536870912"/>
