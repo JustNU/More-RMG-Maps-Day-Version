@@ -4051,14 +4051,9 @@
         <Entity template="grass_01_02" id="6584" pos="-3.99999905 0 14.500001" rot="0.258818418 0 -0.965926051 0 1 0 0.965926051 -0 0.258818418" layerMask="536870912"/>
         <Entity template="grass_01_02" id="6585" pos="-4.37499905 0 15.625001" rot="-0.0871566311 0 -0.996194601 0 1 0 0.996194601 0 -0.0871566311" layerMask="536870912"/>
         <Entity template="RMG Building Entrance" id="2583" pos="5 0.00100000005 -12.000001" rot="1 0 0 0 1 0 0 0 1">
-            <RandStart tags="" enemyStrengthScale="138.59599" enemyCountMax="10"/>
+            <RandStart tags="" enemyStrengthScale="119.298"/>
         </Entity>
         <Entity template="fence_stone_pole_01" id="5" pos="-14.125 0 -5.5" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
-        <Entity template="Ranger Assaulter" id="6" pos="-27.9743328 0 -7.09056282" rot="0.342020303 0 0.939692616 0 1 0 -0.939692616 0 0.342020303" group="214" layerMask="67108864">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
         <Entity template="fence_stone_pole_01" id="63" pos="-12.625001 0 -5.5" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="RMG Building Entrance" id="230" pos="-13.375001 0.00100000005 -2" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
             <Targets num="1" id0="106"/>
@@ -4073,6 +4068,32 @@
                 </Limits>
             </RandStart>
         </Entity>
+        <Entity template="sidewalk_02" id="458" pos="-13.375001 0.00999999978 -3.00000024" rot="0 0 -1 0 1 0 1 0 0" layerMask="1"/>
+        <Entity template="sidewalk_02" id="459" pos="-13.375001 0.0100000016 -4.75" rot="7.4505806e-09 5.55111512e-17 -1 -7.45057971e-09 1 0 1 7.45058015e-09 7.4505806e-09" layerMask="1"/>
+        <Entity template="door_threshold_grate_01" id="480" pos="-13.375001 0 -5.50000048" rot="1 0 0 0 1 0 0 0 1" group="180" layerMask="1"/>
+        <Entity template="flower_stand_01" id="1563" pos="-12.125001 0 -2.625" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
+        <Entity template="flower_stand_01" id="1564" pos="-14.625001 0 -2.625" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
+        <Entity template="plant_interior_02" id="1630" pos="-12.125001 0.698637843 -2.75" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
+        <Entity template="plant_interior_02" id="1632" pos="-14.625001 0.777209222 -2.75" scale="1.20000005" rot="0.984807789 0 0.173648164 0 1 -0 -0.173648164 0 0.984807789" layerMask="1"/>
+        <Entity template="door_frame_grate_01" id="2009" pos="-13.375001 0 -5.50000048" rot="1 0 0 0 1 0 0 0 1" group="180" layerMask="1"/>
+        <Entity template="door_grate_01_locked" id="2013" pos="-13.375001 0 -5.50000048" rot="1 0 0 0 1 0 0 0 1" group="180" layerMask="1"/>
+        <Entity template="fence_stone_01" id="4592" pos="-12.625 0 -5.50000048" rot="1 0 -4.09781933e-07 0 1 0 4.09781933e-07 0 1" layerMask="1">
+            <Wall numTrees="1" numNodes="2">
+                <Branch parent="0" p0="0 0" p1="2.875 -1.3820827e-06"/>
+            </Wall>
+        </Entity>
+        <Entity template="fence_stone_01" id="4593" pos="-17.5 0 -5.50000048" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
+            <Wall numTrees="1" numNodes="2">
+                <Branch parent="0" p0="0 0" p1="3.37499952 0"/>
+            </Wall>
+        </Entity>
+        <Entity template="shrub_03" id="4605" pos="-21.3750019 0.201024577 15.000001" rot="0.978146434 0 -0.207917571 0 1 0 0.207917571 0 0.978146434" layerMask="1"/>
+        <Entity template="shrub_03" id="4606" pos="-21.7500019 0.201024577 14.625001" rot="-0.601819932 0 -0.798631907 0 1 0 0.798631907 0 -0.601819932" layerMask="1"/>
+        <Entity template="Ranger Assaulter" id="6" pos="-27.9743328 0 -7.09056282" rot="0.342020303 0 0.939692616 0 1 0 -0.939692616 0 0.342020303" group="214" layerMask="67108864">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
         <Entity template="HVT EscapeZone" id="296" pos="33 0.0299999993 -11.125001" rot="1 0 0 0 1 0 0 0 1" layerMask="134217728"/>
         <Entity template="HVT EscapeZone" id="298" pos="33 0.0299999993 -11.125001" rot="1 0 0 0 1 0 0 0 1" layerMask="67108864"/>
         <Entity template="HVT EscapeZone" id="301" pos="-33 0.0299999993 -11.125001" rot="1 0 0 0 1 0 0 0 1" layerMask="33554432"/>
@@ -4081,14 +4102,11 @@
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="sidewalk_02" id="458" pos="-13.375001 0.00999999978 -3.00000024" rot="0 0 -1 0 1 0 1 0 0" layerMask="1"/>
-        <Entity template="sidewalk_02" id="459" pos="-13.375001 0.0100000016 -4.75" rot="7.4505806e-09 5.55111512e-17 -1 -7.45057971e-09 1 0 1 7.45058015e-09 7.4505806e-09" layerMask="1"/>
         <Entity template="Ranger Assaulter" id="475" pos="-26.2500019 0 -4.625" rot="-0.965925932 0 0.258818924 0 1 0 -0.258818924 0 -0.965925932" layerMask="67108864">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="door_threshold_grate_01" id="480" pos="-13.375001 0 -5.50000048" rot="1 0 0 0 1 0 0 0 1" group="180" layerMask="1"/>
         <Entity template="Ranger Support" id="481" pos="-30.3603897 0 -6.72333622" rot="-2.23517382e-08 0 1 0 1 0 -1 0 -2.23517382e-08" group="214" layerMask="67108864">
             <Human needsRescue="false">
                 <Traits/>
@@ -4246,10 +4264,6 @@
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="flower_stand_01" id="1563" pos="-12.125001 0 -2.625" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
-        <Entity template="flower_stand_01" id="1564" pos="-14.625001 0 -2.625" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
-        <Entity template="plant_interior_02" id="1630" pos="-12.125001 0.698637843 -2.75" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
-        <Entity template="plant_interior_02" id="1632" pos="-14.625001 0.777209222 -2.75" scale="1.20000005" rot="0.984807789 0 0.173648164 0 1 -0 -0.173648164 0 0.984807789" layerMask="1"/>
         <Entity template="Ranger Assaulter" id="1640" pos="-26.5000019 9.31322575e-10 -11.500001" rot="0.173648298 0 0.984807789 0 1 0 -0.984807789 0 0.173648298" layerMask="134217728">
             <Human needsRescue="false">
                 <Traits/>
@@ -4351,8 +4365,6 @@
         <Entity template="Deploy Slot" id="1984" pos="-29.5000019 0.100000001 9.5" rot="1 0 4.991889e-07 0 1 -0 -4.991889e-07 0 1" layerMask="67108864"/>
         <Entity template="Deploy Slot" id="1990" pos="-29.5000019 0.100000001 8.5" rot="-1 0 -7.22706318e-07 0 1 0 7.22706318e-07 0 -1" layerMask="67108864"/>
         <Entity template="RescueZone" id="1992" pos="-29.0000019 0.0299999993 -13.000001" rot="1 0 0 0 1 0 0 0 1" layerMask="134217728"/>
-        <Entity template="door_frame_grate_01" id="2009" pos="-13.375001 0 -5.50000048" rot="1 0 0 0 1 0 0 0 1" group="180" layerMask="1"/>
-        <Entity template="door_grate_01_locked" id="2013" pos="-13.375001 0 -5.50000048" rot="1 0 0 0 1 0 0 0 1" group="180" layerMask="1"/>
         <Entity template="Deploy Slot" id="2043" pos="-31.1250019 0.100000001 -15.750001" rot="1.41561031e-07 0 1 0 1 -0 -1 0 1.41561031e-07" layerMask="67108864"/>
         <Entity template="Deploy Slot" id="2046" pos="-32.125 0.100000001 -15.750001" rot="1.41561031e-07 0 1 0 1 -0 -1 0 1.41561031e-07" layerMask="67108864"/>
         <Entity template="Deploy Slot" id="2064" pos="-33.125 0.100000001 -15.750001" rot="1.49011612e-07 0 -1 0 1 0 1 -0 1.49011612e-07" layerMask="67108864"/>
@@ -4368,16 +4380,6 @@
                     <Limit min="0" max="0" tags=""/>
                 </Limits>
             </RandStart>
-        </Entity>
-        <Entity template="fence_stone_01" id="4592" pos="-12.625 0 -5.50000048" rot="1 0 -4.09781933e-07 0 1 0 4.09781933e-07 0 1" layerMask="1">
-            <Wall numTrees="1" numNodes="2">
-                <Branch parent="0" p0="0 0" p1="2.875 -1.3820827e-06"/>
-            </Wall>
-        </Entity>
-        <Entity template="fence_stone_01" id="4593" pos="-17.5 0 -5.50000048" rot="1 0 0 0 1 0 0 0 1" layerMask="1">
-            <Wall numTrees="1" numNodes="2">
-                <Branch parent="0" p0="0 0" p1="3.37499952 0"/>
-            </Wall>
         </Entity>
         <Entity template="sidewalk_02" id="4596" pos="-12.875001 0.00999999978 -3.00000024" rot="0 0 -1 0 1 0 1 -0 0" layerMask="2"/>
         <Entity template="sidewalk_02" id="4597" pos="-12.875001 0.0100000016 -4.75" rot="7.4505806e-09 5.55111512e-17 -1 -7.45057971e-09 1 0 1 7.45058015e-09 7.4505806e-09" layerMask="2"/>
@@ -4396,8 +4398,6 @@
                 <Branch parent="0" p0="0 0" p1="2.5 -1.22841448e-06"/>
             </Wall>
         </Entity>
-        <Entity template="shrub_03" id="4605" pos="-21.3750019 0.201024577 15.000001" rot="0.978146434 0 -0.207917571 0 1 0 0.207917571 0 0.978146434" layerMask="1"/>
-        <Entity template="shrub_03" id="4606" pos="-21.7500019 0.201024577 14.625001" rot="-0.601819932 0 -0.798631907 0 1 0 0.798631907 0 -0.601819932" layerMask="1"/>
         <Entity template="RescueZone" id="4635" pos="18 0.0299999993 -12.000001" rot="1 0 0 0 1 0 0 0 1" layerMask="33554432"/>
         <Entity template="flower_stand_01" id="4791" pos="-11.625001 0 -2.625" rot="1 0 0 0 1 0 0 0 1" group="213" layerMask="2"/>
         <Entity template="plant_interior_02" id="4792" pos="-11.625001 0.698637843 -2.75" rot="1 0 0 0 1 0 0 0 1" group="213" layerMask="2"/>

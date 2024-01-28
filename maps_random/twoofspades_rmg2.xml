@@ -1703,7 +1703,7 @@
         <Entity template="shrub_03" id="4605" pos="-3.87500191 0.201024577 15.000001" rot="0.978146434 0 -0.207917571 0 1 0 0.207917571 0 0.978146434" layerMask="1"/>
         <Entity template="shrub_03" id="4606" pos="-4.25000191 0.201024577 14.625001" rot="-0.601819932 0 -0.798631907 0 1 0 0.798631907 0 -0.601819932" layerMask="1"/>
         <Entity template="RMG Building Entrance" id="22" pos="-0.37500003 0.00100000005 -11.125001" rot="1 0 0 0 1 0 0 0 1">
-            <RandStart tags="" enemyStrengthScale="70.175003" enemyCountMax="5"/>
+            <RandStart tags="" enemyStrengthScale="61.403999"/>
         </Entity>
         <Entity template="humvee" id="1495" pos="-9.75000191 0 -9.625" rot="-0.0871555954 0 -0.99619472 0 1 0 0.99619472 0 -0.0871555954" group="230" layerMask="134217728"/>
         <Entity template="humvee_topshield" id="1496" pos="-9.75000191 0 -9.625" rot="-0.0871555954 0 -0.99619472 0 1 0 0.99619472 0 -0.0871555954" group="230" layerMask="134217728"/>

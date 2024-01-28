@@ -144,29 +144,29 @@
         <Entity template="wind_desert_mn" id="510" pos="25.2500019 1.60000002 -15.125001" rot="-1 0 0 0 1 0 0 0 -1">
             <SoundEmitter minAttenuationDistance="12" maxAttenuationDistance="20.200001"/>
         </Entity>
-        <Entity template="Grunt Insurgent" id="518" pos="0.25000003 0 -2.49999976" rot="0.0871560574 0 0.996194661 0 1 -0 -0.996194661 0 0.0871560574">
+        <Entity template="Grunt Insurgent" id="518" pos="0.25000003 0 -2.49999976" rot="-0.996194661 0 0.0871562138 0 1 0 -0.0871562138 0 -0.996194661">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="Veteran Insurgent" id="524" pos="-8.49999905 0 0.75000006" rot="0.866025567 0 -0.499999881 0 1 0 0.499999881 0 0.866025567">
+        <Entity template="Veteran Insurgent" id="524" pos="-8.49999905 0 0.75000006" rot="0.5 0 0.866025448 0 1 0 -0.866025448 0 0.5">
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="6" chanceToInvestigate="0.029999999"/>
             </Human>
         </Entity>
-        <Entity template="Grunt Insurgent" id="536" pos="-7.99999952 0 5.25000048" rot="-0.766044497 0 -0.642787576 0 1 0 0.642787576 0 -0.766044497">
+        <Entity template="Grunt Insurgent" id="536" pos="-7.99999952 0 5.25000048" rot="0.707106709 0 -0.707106829 0 1 0 0.707106829 0 0.707106709">
             <Human needsRescue="false">
                 <Traits chanceToInvestigate="0.67000002" chanceToAmbush="0.38999999"/>
             </Human>
         </Entity>
-        <Entity template="Grunt Insurgent" id="537" pos="-10.875001 0 0.5" rot="0.984807849 0 0.17364791 0 1 0 -0.17364791 0 0.984807849">
+        <Entity template="Grunt Insurgent" id="537" pos="-10.875001 0 0.5" rot="0.258819401 0 0.965925813 0 1 0 -0.965925813 0 0.258819401">
             <Human needsRescue="false">
                 <Traits chanceToInvestigate="0.94"/>
             </Human>
         </Entity>
         <Entity template="ammo_box_01" id="601" pos="2.125 0.0737429932 -2.125" rot="-5.96046448e-08 0 1 0 1 0 -1 0 -5.96046448e-08"/>
         <Entity template="ammo_box_01" id="602" pos="2.125 0.0737429932 -1.87500012" rot="-5.96046448e-08 0 1 0 1 0 -1 0 -5.96046448e-08"/>
-        <Entity template="Rocket Weaponless" id="606" pos="-0.499999762 0 -5.50000048" rot="-0.0871558264 0 0.99619472 0 1 0 -0.99619472 0 -0.0871558264">
+        <Entity template="Rocket Weaponless" id="606" pos="-0.499999762 0 -5.50000048" rot="-1 0 8.94069672e-08 0 1 0 -8.94069672e-08 0 -1">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -209,7 +209,7 @@
         <Entity template="ammo_box_01" id="753" pos="-0.37500003 0.0737429932 -6.12500048" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Decal Dust Large 02" id="757" pos="-10.750001 0.981562495 3.12500024" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Action Squad 1" id="762" pos="-10.8400002 0.981562495 4.65499973" scale="0.300000012" rot="0.984807789 0 -0.173648179 0 1 0 0.173648179 -0 0.984807789"/>
-        <Entity template="Grunt Insurgent Weaponless" id="765" pos="-7.12500048 0 2.125" rot="0.42261833 0 -0.906307817 0 1 0 0.906307817 -0 0.42261833">
+        <Entity template="Grunt Insurgent Weaponless" id="765" pos="-7.12500048 0 2.125" rot="0.866025507 0 0.49999997 0 1 0 -0.49999997 0 0.866025507">
             <Human needsRescue="false">
                 <Traits chanceToInvestigate="0.23999999"/>
             </Human>
@@ -353,7 +353,7 @@
         <Entity template="grass_01" id="1096" pos="13.750001 0 -1.25" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="grass_01" id="1097" pos="14.875001 0 -1.125" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="grass_01" id="1098" pos="15.375001 0 -1.125" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="Veteran Insurgent" id="5234" pos="-8.99999905 0 7" rot="-0.99619472 0 -0.0871557519 0 1 0 0.0871557519 0 -0.99619472">
+        <Entity template="Veteran Insurgent" id="5234" pos="-8.99999905 0 7" rot="0.422618091 0 -0.906307817 0 1 0 0.906307817 0 0.422618091">
             <Human needsRescue="false">
                 <Traits investigateMaxDistanceMeters="6" chanceToInvestigate="0.029999999"/>
             </Human>
@@ -365,9 +365,9 @@
         <Entity template="HVT EscapeZone" id="5270" pos="15.250001 0.0299999993 -2.375" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="barricade_concrete_02" id="1" pos="2.50501347 0.468129754 0.172994673" rot="-0.939692676 0 -0.342020065 0 1 0 0.342020065 0 -0.939692676"/>
         <Entity template="RMG Building Entrance" id="7" pos="-15.000001 0.00100000005 -2.62500024" rot="1 0 0 0 1 0 0 0 1">
-            <RandStart tags="" enemyStrengthScale="80.702003"/>
+            <RandStart tags="" enemyStrengthScale="49.123001"/>
         </Entity>
-        <Entity template="Grunt Insurgent" id="8" pos="6.37500048 0 -1.99999952" rot="0.0871560574 0 0.996194661 0 1 -0 -0.996194661 0 0.0871560574">
+        <Entity template="Grunt Insurgent" id="8" pos="6.37500048 0 -1.99999952" rot="-1 0 4.24683037e-07 0 1 0 -4.24683037e-07 0 -1">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
