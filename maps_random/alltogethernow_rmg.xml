@@ -178,7 +178,7 @@
         <Entity template="RescueZone" id="6741" pos="-7.37500048 0.0299999993 4" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="HVT EscapeZone" id="6743" pos="-8 0.0299999993 -6.00000048" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
         <Entity template="Civ Flee Zone" id="6745" pos="-4.75 0.0299999993 -6.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
-        <Entity template="fence_metal_01" id="1545" pos="6.62500095 1.5866398e-08 1.49999976" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1"/>
+        <Entity template="fence_metal_01" id="1545" pos="6.62500095 1.5866398e-08 1.62499976" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1"/>
         <Entity template="Deploy Slot" id="9" pos="-8 0.100000001 -5.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
         <Entity template="Deploy Slot" id="10" pos="-8 0.100000001 -6.37500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
         <Entity template="Deploy Slot" id="342" pos="-7.99999952 0.100000001 -4.37499952" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" layerMask="2"/>
