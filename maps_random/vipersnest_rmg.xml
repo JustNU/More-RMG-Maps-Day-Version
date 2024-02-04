@@ -657,6 +657,9 @@
                 <Traits investigateMaxDistanceMeters="25" chanceToInvestigate="0.30000001" chanceToAmbush="0.79000002"/>
             </Human>
         </Entity>
+        <Entity template="RMG Building Shape" id="1" pos="0.25 0.100000001 6.87500048" rot="1 0 0 0 1 0 0 0 1">
+            <PolyShape num="5" p0="0 0 0" p1="0.50000006 0 0" p2="0.50000006 0 1.74999952" p3="0 0 1.74999952" p4="0 0 0"/>
+        </Entity>
         <Entity template="grass_01" id="11" pos="-13.125001 0 -2.5" rot="0.292371482 0 -0.956304848 0 1 0 0.956304848 0 0.292371482" layerMask="536870912"/>
         <Entity template="grass_01" id="16" pos="-13.250001 0 -2.5" rot="0.292371482 0 -0.956304848 0 1 0 0.956304848 0 0.292371482" layerMask="536870912"/>
         <Entity template="grass_01" id="18" pos="-13.250001 0 -2.62500024" rot="0.422618508 0 0.906307697 0 1 0 -0.906307697 0 0.422618508" layerMask="536870912"/>
