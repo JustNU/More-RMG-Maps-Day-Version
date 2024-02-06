@@ -10,5 +10,6 @@
 		<Map source="data/maps_random/RMG_exchange.xml"/>
 		<Map source="data/maps_random/RMG_large_apartment.xml"/>
 		<Map source="data/maps_random/vipersnest_rmg.xml"/>
+		<Map source="data/maps_random/breakanddestroy_rmg.xml"/>
 	</Bundle>
 </Maps>
