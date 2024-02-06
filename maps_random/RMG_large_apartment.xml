@@ -47,8 +47,6 @@
         <Entity template="window_glass" id="286" pos="-12.5 0 -7.5" rot="1.04308128e-07 0 -1 0 1 0 1 -0 1.04308128e-07" group="186"/>
         <Entity template="metal_railing" id="373" pos="8.5 0.400000006 8.75" rot="1 0 0 0 1 0 0 0 1" group="221"/>
         <Entity template="metal_railing" id="374" pos="10.500001 0.400000006 8.75" rot="1 0 0 0 1 0 0 0 1" group="222"/>
-        <Entity template="door_threshold_wood_01" id="389" pos="11.7499971 0 -2.49999976" rot="1.04308128e-07 0 -1 0 1 0 1 -0 1.04308128e-07" group="228"/>
-        <Entity template="door_frame_wood_01" id="390" pos="11.7499971 0 -2.49999928" rot="1.04308128e-07 0 -1 0 1 0 1 -0 1.04308128e-07" group="228"/>
         <Entity template="chair_sun_01_02" id="404" pos="10.250001 0 8.125" rot="1.1920929e-07 0 -1 0 1 0 1 -0 1.1920929e-07" group="237"/>
         <Entity template="chair_sun_01_01" id="410" pos="-13.125 0 8.02000046" rot="0.173648253 0 0.984807849 0 1 -0 -0.984807789 0 0.173648238" group="241"/>
         <Entity template="Sniper Position" id="497" pos="-1.37499988 0.0500000007 25.1250019" rot="-1 0 1.49011598e-07 0 1 0 -1.49011598e-07 0 -1" group="301">
@@ -500,7 +498,7 @@
         </Entity>
         <Entity template="Movement Blocker" id="967" pos="-12.750001 0 -5.75000048" rot="1 0 0 0 1 0 0 0 1" group="611">
             <Wall numTrees="1" numNodes="11">
-                <Branch parent="0" p0="0 0" p1="0 -3.24999952" p2="16.875 -3.37499952" p3="16.8750019 -1.75" p4="20.6250019 -1.75" p5="20.6250019 -3.37499952" p6="24.7500019 -3.37499952" p7="24.7500019 14.625" p8="-2.125 14.625" p9="-2.125 0" p10="-0.375 0"/>
+                <Branch parent="0" p0="0 0" p1="0 -3.37499952" p2="16.875 -3.37499952" p3="16.8750019 -1.75" p4="20.6250019 -1.75" p5="20.6250019 -3.37499952" p6="24.7500019 -3.37499952" p7="24.7500019 14.625" p8="-2.125 14.625" p9="-2.125 0" p10="-0.375 0"/>
             </Wall>
         </Entity>
         <Entity template="Wall" id="88" pos="3.625 -2 -8.875" rot="1 0 0 0 1 0 0 0 1">
@@ -582,15 +580,22 @@
         </Entity>
         <Entity template="HVT EscapeZone" id="92" pos="8.5 0.0299999993 -8.125" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="HVT EscapeZone" id="93" pos="11.000001 0.0299999993 5.25000048" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="Wall" id="7" pos="-11.500001 0 -8.875" rot="1 0 0 0 1 0 0 0 1">
-            <Wall numTrees="1" numNodes="10">
-                <Branch parent="0" p0="0 0" p1="-1 0" p2="-1 0.625" p3="-1 3.37499952" p4="-3.125 3.37499952"/>
-                <Branch parent="3" p5="21.25 3.37499952" p6="23.2500038 3.37499952" p7="23.2500019 0" p8="0.25 0"/>
-                <Branch parent="6" p9="23.2500019 17.5"/>
-            </Wall>
-        </Entity>
         <Entity template="RMG Building Entrance" id="94" pos="-5.62500048 0.00100000005 -7.50000048" rot="1 0 0 0 1 0 0 0 1">
             <RandStart tags="" enemyStrengthScale="36.841999"/>
+        </Entity>
+        <Entity template="Wall" id="95" pos="-13.875001 0 -5.50000048" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="10">
+                <Branch parent="0" p0="0 0" p1="1.375 0" p2="25.6250019 0" p3="25.6250019 0" p4="25.6250019 14.125" p5="25.5000019 14.125"/>
+                <Branch parent="2" p6="25.6250019 -1.375"/>
+                <Branch parent="1" p7="1.375 -2.74999952"/>
+                <Branch parent="0" p8="-0.75 0" p9="-0.75 0.125"/>
+            </Wall>
+        </Entity>
+        <Entity template="Wall 2mH" id="96" pos="-11.125001 0 -8.875" rot="1 0 0 0 1 0 0 0 1">
+            <Wall numTrees="1" numNodes="5">
+                <Branch parent="0" p0="0 0" p1="-1.375 0" p2="-1.375 0.375"/>
+                <Branch parent="0" p3="22.8750019 0" p4="22.8750019 1.74999952"/>
+            </Wall>
         </Entity>
     </Entities>
 </Map>
