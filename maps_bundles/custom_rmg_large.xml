@@ -1,5 +1,6 @@
 <Maps>
 	<Bundle name="More_RMG_Maps_Large" rmg="large">
 		<Map source="data/maps_random/twoofspades_rmg.xml"/>
+		<Map source="data/maps_random/maniacmansion_rmg.xml"/>
 	</Bundle>
 </Maps>
