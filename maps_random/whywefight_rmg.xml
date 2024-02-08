@@ -111,7 +111,7 @@
         <Entity template="brick_stack_01" id="242" pos="3.62951255 0 3.36505675" rot="-0.996194959 0 -0.0871557295 0 1 0 0.0871557295 0 -0.996194959"/>
         <Entity template="brick_stack_01" id="247" pos="2.50451231 0 3.36505723" rot="-0.996194959 0 0.0871557295 0 1 0 -0.0871557295 0 -0.996194959"/>
         <Entity template="pallet_01" id="254" pos="2.87951255 1.00100005 3.49005699" rot="-0.258819342 0 -0.965926647 0 1 0 0.965926647 0 -0.258819342"/>
-        <Entity template="Ranger Assaulter" id="324" pos="-7.00000143 0 1.37499964" rot="0.707107842 0 -0.707107842 0 1 0 0.707107842 0 0.707107842">
+        <Entity template="Ranger Assaulter" id="324" pos="-7.00000143 0 1.37499964" rot="0.707106829 0 0.707106769 0 1 0 -0.707106769 0 0.707106829">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -132,7 +132,7 @@
         <Entity template="fence_chainlink_01" id="458" pos="-10.2480469 0 0.50195384" rot="-1.00000048 0 0 0 1 0 0 0 -1.00000048"/>
         <Entity template="fence_chainlink_01" id="460" pos="-12.2480469 0 0.501954317" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024"/>
         <Entity template="fence_chainlink_01" id="461" pos="-14.2480469 0 0.50195384" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024"/>
-        <Entity template="Ranger Assaulter" id="323" pos="-4.37500048 0 1.37499964" rot="0.707108259 0 -0.707108259 0 1 0 0.707108259 0 0.707108259">
+        <Entity template="Ranger Assaulter" id="323" pos="-4.37500048 0 1.37499964" rot="0.866025507 0 0.49999994 0 1 0 -0.49999994 0 0.866025507">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -221,7 +221,7 @@
         <Entity template="Deploy Slot" id="550" pos="-4.375 0.100000001 1.375" rot="-0.500001073 0 -0.866026282 0 0.999999881 0 0.866026163 0 -0.500001013" group="64"/>
         <Entity template="Deploy Slot" id="552" pos="-8.125 0.100000001 1.37500012" rot="0.500000179 0 0.866025627 0 1 0 -0.866025627 0 0.500000179" group="66"/>
         <Entity template="Deploy Slot" id="553" pos="-9.125 0.100000001 1.37500012" rot="-0.76604557 0 -0.642788887 0 0.999999762 0 0.642788589 0 -0.766045392" group="67"/>
-        <Entity template="Ranger Assaulter" id="555" pos="-3.75 0 5.37500048" rot="-0.0871555656 0 0.996194959 0 1 0 -0.996194959 0 -0.0871555656" group="69">
+        <Entity template="Ranger Assaulter" id="555" pos="-3.75 0 5.37500048" rot="-0.984807789 0 -0.173648015 0 1 0 0.173648015 0 -0.984807789" group="69">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -675,9 +675,6 @@
         <Entity template="door_threshold_grate_01" id="37" pos="-3.00005245 0 3.75004768" rot="1.56462193e-07 0 -1 0 1 0 1 0 1.56462193e-07" group="470" layerMask="16"/>
         <Entity template="door_grate_01" id="38" pos="-3.00005245 0 3.75004768" rot="1.56462193e-07 0 -1 0 1 0 1 0 1.56462193e-07" group="470" layerMask="16"/>
         <Entity template="door_frame_grate_01" id="39" pos="-3.00005245 0 3.75004816" rot="1.56462193e-07 0 -1 0 1 0 1 0 1.56462193e-07" group="470" layerMask="16"/>
-        <Entity template="door_metal_sheet_locked" id="31" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
-        <Entity template="door_frame_grate_01" id="32" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
-        <Entity template="door_threshold_grate_01" id="33" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
         <Entity template="RMG Building Entrance" id="5" pos="8.25 0.00100000005 -4.5" rot="0 0 1 0 1 0 -1 0 0" layerMask="1">
             <Targets num="8" id0="20" id1="4191" id2="5616" id3="6087" id4="2525" id5="1530" id6="4240" id7="1174"/>
             <RandStart tags="entrance" theme="compound" shapeFillMin="0.69999999" enemyStrengthScale="0.60100001">
@@ -698,6 +695,9 @@
         <Entity template="Alt. Spawn Point" id="5616" pos="8.24999905 0.00100000005 2.5" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" layerMask="1"/>
         <Entity template="Alt. Spawn Point" id="6087" pos="8.24999905 0.00100000005 1.49999988" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" layerMask="1"/>
         <Entity template="HVT EscapeZone" id="40" pos="-7.25000048 0.0299999993 8.125" rot="1 0 0 0 1 0 0 0 1"/>
+        <Entity template="door_metal_sheet" id="25" pos="-5.62500143 0 0.500008523" rot="1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 1" group="464" layerMask="4"/>
+        <Entity template="door_frame_grate_01" id="26" pos="-5.62500143 0 0.500008523" rot="1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 1" group="464" layerMask="4"/>
+        <Entity template="door_threshold_grate_01" id="27" pos="-5.62500143 0 0.500008523" rot="1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 1" group="464" layerMask="4"/>
         <Entity template="RMG Building Shape" id="2" pos="8 0.100000001 6.62500048" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
             <PolyShape num="11" p0="0 0 0" p1="4.12500095 0 0" p2="5.12500048 0 -1" p3="5.12500048 0 -5.37500048" p4="5.12500048 0 -12.625001" p5="0 0 -12.625001" p6="0 0 -10.625" p7="0 0 -10.625" p8="0 0 -1.62500048" p9="0 0 -1.62500048" p10="0 0 0"/>
         </Entity>
@@ -710,9 +710,9 @@
                 </Limits>
             </RandStart>
         </Entity>
-        <Entity template="door_metal_sheet" id="25" pos="-5.62500143 0 0.500008523" rot="1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 1" group="464" layerMask="4"/>
-        <Entity template="door_frame_grate_01" id="26" pos="-5.62500143 0 0.500008523" rot="1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 1" group="464" layerMask="4"/>
-        <Entity template="door_threshold_grate_01" id="27" pos="-5.62500143 0 0.500008523" rot="1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 1" group="464" layerMask="4"/>
+        <Entity template="door_metal_sheet_locked" id="31" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
+        <Entity template="door_frame_grate_01" id="32" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
+        <Entity template="door_threshold_grate_01" id="33" pos="-5.6249671 0 0.500053704" rot="1 0 1.2665987e-07 0 1 0 -1.2665987e-07 0 1" group="467" layerMask="8"/>
         <Entity template="door_threshold_grate_01" id="43" pos="-3.0000093 0 3.75000238" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="473" layerMask="32"/>
         <Entity template="door_grate_01_locked" id="44" pos="-3.0000093 0 3.75000238" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="473" layerMask="32"/>
         <Entity template="door_frame_grate_01" id="45" pos="-3.00001025 0 3.75000215" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" group="473" layerMask="32"/>

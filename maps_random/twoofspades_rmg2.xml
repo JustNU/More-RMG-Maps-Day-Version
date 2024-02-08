@@ -1626,12 +1626,12 @@
         <Entity template="Deploy Slot" id="1990" pos="-12.0000019 0.100000001 8.5" rot="1 0 4.39584198e-07 0 1 0 -4.39584198e-07 0 1"/>
         <Entity template="Deploy Slot" id="9" pos="-12.0000019 0.100000001 7.5" rot="-1 0 -1.49011612e-07 0 1 0 1.49011612e-07 0 -1"/>
         <Entity template="RescueZone" id="932" pos="-11.5000019 0.0299999993 -13.000001" rot="1 0 0 0 1 0 0 0 1"/>
-        <Entity template="Ranger Assaulter" id="6" pos="-10.2243328 0 -7.09056282" rot="0.342020303 0 0.939692616 0 1 0 -0.939692616 0 0.342020303" layerMask="67108864">
+        <Entity template="Ranger Assaulter" id="6" pos="-10.2243328 0 -7.09056282" rot="1.56462178e-07 0 1 0 1 0 -1 0 1.56462178e-07" layerMask="67108864">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="Ranger Marksman" id="356" pos="-11.6937847 0 -10.9347696" rot="0.819152176 0 0.57357645 0 1 0 -0.57357645 0 0.819152176" layerMask="67108864">
+        <Entity template="Ranger Marksman" id="356" pos="-11.6937847 0 -10.9347696" rot="-0.0871556103 0 0.99619472 0 1 0 -0.99619472 0 -0.0871556103" layerMask="67108864">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -1648,7 +1648,7 @@
         <Entity template="militaryvehicle_door_frontleft" id="911" pos="-11.2190533 0 -10.2014284" rot="0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 0.0871556476" layerMask="67108864"/>
         <Entity template="Deploy Slot" id="914" pos="-11.5278625 0.100000024 -6.9153223" rot="-0.0871556476 0 0.99619472 0 1 0 -0.99619472 0 -0.0871556476" layerMask="67108864"/>
         <Entity template="Deploy Slot" id="915" pos="-10.1953259 0.100000024 -7.10731125" rot="-0.0871556476 0 0.99619472 0 1 0 -0.99619472 0 -0.0871556476" layerMask="67108864"/>
-        <Entity template="Ranger Assaulter" id="916" pos="-10.3047829 0 -11.013401" rot="0.342020303 0 0.939692616 0 1 0 -0.939692616 0 0.342020303" layerMask="67108864">
+        <Entity template="Ranger Assaulter" id="916" pos="-10.3047829 0 -11.013401" rot="-0.17364803 0 0.984807849 0 1 0 -0.984807849 0 -0.17364803" layerMask="67108864">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -1656,12 +1656,12 @@
         <Entity template="Deploy Slot" id="918" pos="-13.1337299 0.100000024 -10.7107935" rot="-0.173648119 0 0.984807789 0 1 0 -0.984807789 0 -0.173648119" layerMask="67108864"/>
         <Entity template="Deploy Slot" id="919" pos="-11.6998253 0.100000024 -10.8381548" rot="-0.0871556476 0 0.99619472 0 1 0 -0.99619472 0 -0.0871556476" layerMask="67108864"/>
         <Entity template="Deploy Slot" id="920" pos="-10.3672867 0.100000024 -11.0301437" rot="-0.0871556476 0 0.99619472 0 1 0 -0.99619472 0 -0.0871556476" layerMask="67108864"/>
-        <Entity template="Ranger Assaulter" id="921" pos="-13.1962318 0 -10.8190422" rot="0.819152176 0 0.57357645 0 1 0 -0.57357645 0 0.819152176" layerMask="67108864">
+        <Entity template="Ranger Assaulter" id="921" pos="-13.1962318 0 -10.8190422" rot="-0.087155588 0 0.99619472 0 1 0 -0.99619472 0 -0.087155588" layerMask="67108864">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="Ranger Assaulter" id="1940" pos="-11.4653645 0 -6.89857578" rot="0.866025448 0 0.49999997 0 1 0 -0.49999997 0 0.866025448" layerMask="67108864">
+        <Entity template="Ranger Assaulter" id="1940" pos="-11.4653645 0 -6.89857578" rot="-0.0871556103 0 0.99619472 0 1 0 -0.99619472 0 -0.0871556103" layerMask="67108864">
             <Human needsRescue="false">
                 <Traits/>
             </Human>

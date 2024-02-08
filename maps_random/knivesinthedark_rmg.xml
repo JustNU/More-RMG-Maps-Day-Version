@@ -34,7 +34,7 @@
         <Entity template="Deploy Slot" id="16" pos="8.25 0.100000001 -2.87500024" rot="1 0 0 0 1 0 0 0 1"/>
         <Entity template="Deploy Slot" id="64" pos="8.25 0.100000001 -4" rot="-1 0 1.41561031e-07 0 1 0 -1.41561031e-07 0 -1"/>
         <Entity template="Deploy Slot" id="148" pos="8.25 0.100000001 3.25" rot="-0.939692557 0 -0.342020243 0 1 0 0.342020243 0 -0.939692557"/>
-        <Entity template="Ranger Assaulter" id="159" pos="8.25 0 -1.62500012" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="Ranger Assaulter" id="159" pos="8.25 0 -1.62500012" rot="0.57357645 0 -0.819151998 0 1 0 0.819151998 0 0.57357645">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -68,7 +68,7 @@
         <Entity template="far_rural_ambience_mn" id="324" pos="-25.609272 1.60000002 2.99314499" rot="1 0 0 0 1 0 0 0 1">
             <SoundEmitter minAttenuationDistance="14" maxAttenuationDistance="20.299999"/>
         </Entity>
-        <Entity template="Ranger Assaulter" id="6" pos="8.375 0 3.25000024" rot="1 0 0 0 1 0 0 0 1">
+        <Entity template="Ranger Assaulter" id="6" pos="8.375 0 3.25000024" rot="-0.819151998 0 -0.57357657 0 1 0 0.57357657 0 -0.819151998">
             <Human needsRescue="false">
                 <Traits/>
             </Human>

@@ -555,7 +555,7 @@
             <Light color="D5E4F7" radiusMeters="3.75" limitType="Box" limitX="40" limitXNeg="40" limitY="1.7" limitYNeg="1.8249996" colorMultiplier="4.4000001" isIndoorLight="false" startDisabled="false"/>
         </Entity>
         <Entity template="Deploy Slot" id="203" pos="3.375 0.100000024 -8.5" rot="1 0 -7.15255737e-07 0 1 0 7.15255737e-07 0 1" group="113"/>
-        <Entity template="Ranger Assaulter" id="206" pos="3.375 0 -8.5" rot="7.15255737e-07 0 1 0 1 0 -1 0 7.15255737e-07" group="116">
+        <Entity template="Ranger Assaulter" id="206" pos="3.375 0 -8.5" rot="1 0 0 0 1 0 0 0 1" group="116">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -573,7 +573,7 @@
         <Entity template="Deploy Slot" id="371" pos="1.375 0.100000024 -8.5" rot="1 0 0 0 1 0 0 0 1" group="219"/>
         <Entity template="Deploy Slot" id="475" pos="0.374999881 0.100000024 -8.5" rot="0.707106888 0 -0.707106709 0 1 0 0.707106709 0 0.707106888" group="285"/>
         <Entity template="Deploy Slot" id="201" pos="2.375 0.100000024 -8.5" rot="1 0 -5.96046448e-07 0 1 0 5.96046448e-07 0 1" group="111"/>
-        <Entity template="Ranger Assaulter" id="205" pos="2.375 0 -8.5" rot="8.7916851e-07 0 1 0 1 0 -1 0 8.7916851e-07" group="115">
+        <Entity template="Ranger Assaulter" id="205" pos="2.375 0 -8.5" rot="1 0 0 0 1 0 0 0 1" group="115">
             <Human needsRescue="false">
                 <Traits/>
             </Human>

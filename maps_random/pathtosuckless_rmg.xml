@@ -5,7 +5,7 @@
         <Materials num="2" mat0="dirt_to_grass" mat1="asphalt"/>
     </Terrain>
     <MusicTracks/>
-    <Layers used="536870912"/>
+    <Layers used="536870919" l29="15"/>
     <Entities>
         <Entity template="Light Ambiental" id="2" pos="-7.25 2.0999999 -8.5" rot="1 0 0 0 1 0 0 0 1">
             <Light color0="4F626A" color1="1D2E42" colorMultiplier="1.52" isIndoorLight="false" startDisabled="false"/>
@@ -160,18 +160,6 @@
         <Entity template="fence_chainlink_01" id="333" pos="7.34967756 0 -5.7834506" rot="-0.984808266 0 -0.173648357 0 1 0 0.173648357 0 -0.984808266" group="65"/>
         <Entity template="fence_chainlink_01" id="334" pos="9.06756687 1.62921054e-08 -6.11936235" rot="-0.984808385 0 -0.173648313 0 1 0 0.173648313 0 -0.984808385" group="66"/>
         <Entity template="Deploy Slot" id="140" pos="-7.50000048 0.100000001 -0.75000006" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1"/>
-        <Entity template="humvee" id="4301" pos="-11.000001 0 -0.37500003" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_topshield" id="4302" pos="-11.000001 0 -0.37500003" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_door_frontleft" id="4303" pos="-10.417676 0 -1.52360368" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_door_frontright" id="4304" pos="-10.6309557 0 0.856844664" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_door_backleft" id="4305" pos="-11.47861 0 -1.61642432" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_door_backright" id="4306" pos="-11.6819324 0 0.764896035" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_glass_front" id="4307" pos="-10.0038023 0 -0.287844062" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_glass_door_frontleft" id="4308" pos="-10.417676 0 -1.52360368" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_glass_door_frontright" id="4309" pos="-10.6309557 0 0.856844664" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_glass_door_backright" id="4310" pos="-11.6819324 0 0.764896035" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_cover" id="4311" pos="-11.000001 0 -0.37500003" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
-        <Entity template="humvee_glass_door_backleft" id="4312" pos="-11.47861 0 -1.61642432" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352"/>
         <Entity template="Deploy Slot" id="4313" pos="-7.50000048 0.100000001 0.5" rot="-1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 -1"/>
         <Entity template="Deploy Slot" id="4314" pos="-6.37500048 0.100000001 2.125" rot="0.57357657 0 0.819151998 0 1 0 -0.819151998 0 0.57357657"/>
         <Entity template="low_stone_wall_03" id="119" pos="0.625 0.490038961 5.12500048" rot="1 0 0 0 1 0 0 0 1" group="349"/>
@@ -343,5 +331,37 @@
         <Entity template="RMG Anchor" id="7411" pos="-4.875 0.00100000005 -3.62500024" rot="1 0 0 0 1 0 0 0 1" layerMask="536870912">
             <RandAnchor tags="" mandatory="false"/>
         </Entity>
+        <Entity template="pickup_02_pol" id="123" pos="-10.500001 0 -0.25" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="pickup_02_pol_door_left" id="124" pos="-9.86618042 1.78813934e-07 -0.897222757" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="pickup_02_pol_door_right" id="125" pos="-9.98321629 1.78813934e-07 0.497888088" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="sedan_police_light" id="126" pos="-10.2509527 1.58440971 -0.228212476" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="pickup_02_glass_front" id="136" pos="-9.5934639 -1.78813934e-07 -0.170689225" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="pickup_02_glass_door_left" id="137" pos="-9.89002514 1.78813934e-07 -0.854138851" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="pickup_02_glass_door_right" id="139" pos="-9.99878311 0 0.446331382" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="pickup_02_glass_right_police" id="141" pos="-10.8812876 0 0.379162192" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="pickup_02_glass_left_police" id="142" pos="-10.766243 0 -0.935814142" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="pickup_02_glass_back" id="143" pos="-11.2670708 -1.1920929e-07 -0.317110628" rot="-0.0871556103 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556103" group="358" layerMask="4"/>
+        <Entity template="militaryvehicle" id="38" pos="-11.250001 3.57627869e-07 -0.37500003" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="militaryvehicle_door_frontleft" id="39" pos="-10.9967823 0 -1.58253622" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="militaryvehicle_door_frontright" id="41" pos="-11.2117329 0 0.855671883" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="militaryvehicle_door_backleft" id="44" pos="-11.9694214 0 -1.41471708" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="militaryvehicle_door_backright" id="45" pos="-12.1444407 0 0.510030508" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="militaryvehicle_glass_front" id="47" pos="-10.672225 0 -0.324450821" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="militaryvehicle_glass_door_frontleft" id="48" pos="-11.0809431 0 -1.3218174" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="militaryvehicle_glass_door_frontright" id="63" pos="-11.2690792 0 0.599097967" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="militaryvehicle_glass_door_backleft" id="67" pos="-12.0559521 0 -1.45991158" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="militaryvehicle_glass_door_backright" id="68" pos="-12.2419767 0 0.538886309" rot="-0.0871556476 0 -0.99619472 0 1 0 0.99619472 0 -0.0871556476" group="355" layerMask="2"/>
+        <Entity template="humvee" id="4301" pos="-11.000001 0 -0.37500003" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_topshield" id="4302" pos="-11.000001 0 -0.37500003" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_door_frontleft" id="4303" pos="-10.417676 0 -1.52360368" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_door_frontright" id="4304" pos="-10.6309557 0 0.856844664" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_door_backleft" id="4305" pos="-11.47861 0 -1.61642432" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_door_backright" id="4306" pos="-11.6819324 0 0.764896035" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_glass_front" id="4307" pos="-10.0038023 0 -0.287844062" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_glass_door_frontleft" id="4308" pos="-10.417676 0 -1.52360368" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_glass_door_frontright" id="4309" pos="-10.6309557 0 0.856844664" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_glass_door_backright" id="4310" pos="-11.6819324 0 0.764896035" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_cover" id="4311" pos="-11.000001 0 -0.37500003" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
+        <Entity template="humvee_glass_door_backleft" id="4312" pos="-11.47861 0 -1.61642432" rot="-0.0871556625 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556625" group="352" layerMask="1"/>
     </Entities>
 </Map>

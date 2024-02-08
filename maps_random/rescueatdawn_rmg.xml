@@ -212,7 +212,7 @@
         <Entity template="Deploy Slot" id="773" pos="-13.250001 0.100000001 7.75000048" rot="-0.42261827 0 0.906307995 0 1 0 -0.906307995 0 -0.42261827"/>
         <Entity template="Deploy Slot" id="774" pos="-14.250001 0.100000001 7.75000048" rot="0 0 1.00000012 0 1 0 -1.00000012 0 0"/>
         <Entity template="Deploy Slot" id="776" pos="-9.5 0.100000001 7.75000048" rot="0 0 -1.00000036 0 1 0 1.00000036 0 0"/>
-        <Entity template="Ranger Assaulter" id="778" pos="2.75000024 0 7.62500048" rot="0 0 1.00000012 0 1 0 -1.00000012 0 0">
+        <Entity template="Ranger Assaulter" id="778" pos="2.75000024 0 7.62500048" rot="-0.173648328 0 -0.984807789 0 1 0 0.984807789 0 -0.173648328">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -222,7 +222,7 @@
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="Ranger Support" id="782" pos="3.75000024 0 7.75000048" rot="0 0 1.00000048 0 1 0 -1.00000048 0 0">
+        <Entity template="Ranger Support" id="782" pos="3.75000024 0 7.75000048" rot="-0.42261827 0 0.906307876 0 1 0 -0.906307876 0 -0.42261827">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -360,7 +360,7 @@
         <Entity template="factory_car_engine_01" id="1442" pos="8.125 1.60000002 1.75000012" rot="1 0 0 0 1 0 0 0 1" group="388">
             <SoundEmitter minAttenuationDistance="0" maxAttenuationDistance="8.6000004"/>
         </Entity>
-        <Entity template="Ranger Support" id="781" pos="6.75000048 0 7.75000048" rot="0 0 -1.00000024 0 1 0 1.00000024 0 0">
+        <Entity template="Ranger Support" id="781" pos="6.75000048 0 7.75000048" rot="-0.49999994 0 -0.866025388 0 1 0 0.866025388 0 -0.49999994">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -754,15 +754,6 @@
         </Entity>
         <Entity template="RescueZone" id="326" pos="0.25 0.129999995 8.875" rot="1 0 0 -0 1 0 0 -0 1" group="472"/>
         <Entity template="RescueZone" id="327" pos="11.75 0.129999995 8.875" rot="1 0 0 -0 1 0 0 -0 1" group="473"/>
-        <Entity template="RMG Building Entrance" id="5" pos="5 0.00100000005 -3.50000024" rot="1.56462178e-07 0 1 0 1 0 -1 0 1.56462178e-07" layerMask="2">
-            <Targets num="8" id0="128" id1="6537" id2="872" id3="4596" id4="1720" id5="3508" id6="3803" id7="3931"/>
-            <RandStart tags="entrance" theme="compound" shapeFillMin="0.71399999" enemyStrengthScale="0.51499999">
-                <Limits>
-                    <Limit min="0" max="0" tags="garage"/>
-                    <Limit min="0" max="1" tags="bathroom"/>
-                </Limits>
-            </RandStart>
-        </Entity>
         <Entity template="door_threshold_grate_01" id="35" pos="5.5 0 6.875" rot="1 0 0 0 1 0 0 0 1" group="3" layerMask="4"/>
         <Entity template="door_frame_grate_01" id="36" pos="5.5 0 6.875" rot="1 0 0 0 1 0 0 0 1" group="3" layerMask="4"/>
         <Entity template="door_grate_01" id="37" pos="5.5 0 6.875" rot="1 0 0 0 1 0 0 0 1" group="3" layerMask="4"/>
@@ -774,27 +765,36 @@
                 </Limits>
             </RandStart>
         </Entity>
+        <Entity template="gate_frame_poor_01" id="1017" pos="-11.875001 0 6.87500048" rot="1 0 0 0 1 0 0 0 1" group="98" layerMask="16"/>
+        <Entity template="gate_poor_01_locked" id="1018" pos="-11.875001 0 6.87500048" rot="1 0 0 0 1 0 0 0 1" group="98" layerMask="16"/>
+        <Entity template="Alt. Spawn Point" id="1884" pos="6.50000048 0.00100000005 -1" rot="-1 0 3.12924385e-07 0 1 0 -3.12924385e-07 0 -1" layerMask="1"/>
+        <Entity template="Alt. Spawn Point" id="2685" pos="8.49999905 0.00100000005 -1" rot="-1 0 3.12924385e-07 0 1 0 -3.12924385e-07 0 -1" layerMask="1"/>
+        <Entity template="Alt. Spawn Point" id="2972" pos="4.87499952 0.00100000005 -2.5" rot="8.19563795e-08 0 1 0 1 0 -1 0 8.19563795e-08" layerMask="1"/>
+        <Entity template="Alt. Spawn Point" id="3199" pos="4.87499952 0.00100000005 -4.5" rot="8.19563795e-08 0 1 0 1 0 -1 0 8.19563795e-08" layerMask="1"/>
+        <Entity template="Alt. Spawn Point" id="3340" pos="4.87499952 0.00100000005 -5.50000048" rot="8.19563795e-08 0 1 0 1 0 -1 0 8.19563795e-08" layerMask="1"/>
+        <Entity template="Alt. Spawn Point" id="4228" pos="4.87499952 0.00100000005 -6.50000095" rot="8.19563795e-08 0 1 0 1 0 -1 0 8.19563795e-08" layerMask="1"/>
+        <Entity template="Alt. Spawn Point" id="4747" pos="11.500001 0.00100000005 -1" rot="-1 0 3.12924385e-07 0 1 0 -3.12924385e-07 0 -1" layerMask="1"/>
+        <Entity template="Alt. Spawn Point" id="6144" pos="9.49999905 0.00100000005 -1" rot="-1 0 3.12924385e-07 0 1 0 -3.12924385e-07 0 -1" layerMask="1"/>
+        <Entity template="RMG Building Entrance" id="5" pos="5 0.00100000005 -3.50000024" rot="1.56462178e-07 0 1 0 1 0 -1 0 1.56462178e-07" layerMask="2">
+            <Targets num="8" id0="128" id1="6537" id2="872" id3="4596" id4="1720" id5="3508" id6="3803" id7="3931"/>
+            <RandStart tags="entrance" theme="compound" shapeFillMin="0.71399999" enemyStrengthScale="0.51499999">
+                <Limits>
+                    <Limit min="0" max="0" tags="garage"/>
+                    <Limit min="0" max="1" tags="bathroom"/>
+                </Limits>
+            </RandStart>
+        </Entity>
         <Entity template="door_threshold_grate_01" id="303" pos="5.50000048 0 6.87500048" rot="1 0 0 0 1 0 0 0 1" group="467" layerMask="8"/>
         <Entity template="door_grate_01_locked" id="304" pos="5.50000048 0 6.87500048" rot="1 0 0 0 1 0 0 0 1" group="467" layerMask="8"/>
         <Entity template="door_frame_grate_01" id="305" pos="5.50000048 0 6.87500095" rot="1 0 0 0 1 0 0 0 1" group="467" layerMask="8"/>
         <Entity template="gate_frame_poor_01" id="310" pos="-11.875001 0 6.87500048" rot="1 0 0 0 1 0 0 0 1" group="470" layerMask="32"/>
         <Entity template="gate_poor_01" id="311" pos="-11.875001 0 6.87500048" rot="1 0 0 0 1 0 0 0 1" group="470" layerMask="32"/>
         <Entity template="Alt. Spawn Point" id="872" pos="10.500001 0.00100000005 -1" rot="-1 0 3.35276098e-07 0 1 0 -3.35276098e-07 0 -1" layerMask="2"/>
-        <Entity template="gate_frame_poor_01" id="1017" pos="-11.875001 0 6.87500048" rot="1 0 0 0 1 0 0 0 1" group="98" layerMask="16"/>
-        <Entity template="gate_poor_01_locked" id="1018" pos="-11.875001 0 6.87500048" rot="1 0 0 0 1 0 0 0 1" group="98" layerMask="16"/>
         <Entity template="Alt. Spawn Point" id="1720" pos="8.49999905 0.00100000005 -1" rot="-1 0 3.35276098e-07 0 1 0 -3.35276098e-07 0 -1" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="1884" pos="6.50000048 0.00100000005 -1" rot="-1 0 3.12924385e-07 0 1 0 -3.12924385e-07 0 -1" layerMask="1"/>
-        <Entity template="Alt. Spawn Point" id="2685" pos="8.49999905 0.00100000005 -1" rot="-1 0 3.12924385e-07 0 1 0 -3.12924385e-07 0 -1" layerMask="1"/>
-        <Entity template="Alt. Spawn Point" id="2972" pos="4.87499952 0.00100000005 -2.5" rot="8.19563795e-08 0 1 0 1 0 -1 0 8.19563795e-08" layerMask="1"/>
-        <Entity template="Alt. Spawn Point" id="3199" pos="4.87499952 0.00100000005 -4.5" rot="8.19563795e-08 0 1 0 1 0 -1 0 8.19563795e-08" layerMask="1"/>
-        <Entity template="Alt. Spawn Point" id="3340" pos="4.87499952 0.00100000005 -5.50000048" rot="8.19563795e-08 0 1 0 1 0 -1 0 8.19563795e-08" layerMask="1"/>
         <Entity template="Alt. Spawn Point" id="3508" pos="6.50000048 0.00100000005 -1" rot="-1 0 3.35276098e-07 0 1 0 -3.35276098e-07 0 -1" layerMask="2"/>
         <Entity template="Alt. Spawn Point" id="3803" pos="4.99999952 0.00100000005 -2.5" rot="1.56462178e-07 0 1 0 1 0 -1 0 1.56462178e-07" layerMask="2"/>
         <Entity template="Alt. Spawn Point" id="3931" pos="4.99999952 0.00100000005 -4.5" rot="1.56462178e-07 0 1 0 1 0 -1 0 1.56462178e-07" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="4228" pos="4.87499952 0.00100000005 -6.50000095" rot="8.19563795e-08 0 1 0 1 0 -1 0 8.19563795e-08" layerMask="1"/>
         <Entity template="Alt. Spawn Point" id="4596" pos="9.49999905 0.00100000005 -1" rot="-1 0 3.35276098e-07 0 1 0 -3.35276098e-07 0 -1" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="4747" pos="11.500001 0.00100000005 -1" rot="-1 0 3.12924385e-07 0 1 0 -3.12924385e-07 0 -1" layerMask="1"/>
-        <Entity template="Alt. Spawn Point" id="6144" pos="9.49999905 0.00100000005 -1" rot="-1 0 3.12924385e-07 0 1 0 -3.12924385e-07 0 -1" layerMask="1"/>
         <Entity template="Alt. Spawn Point" id="6537" pos="11.500001 0.00100000005 -1" rot="-1 0 3.35276098e-07 0 1 0 -3.35276098e-07 0 -1" layerMask="2"/>
     </Entities>
 </Map>

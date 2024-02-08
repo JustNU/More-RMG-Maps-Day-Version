@@ -187,12 +187,12 @@
         <Entity template="Deploy Slot" id="141" pos="8.625 0.100000001 6.75000048" rot="-0.99999994 0 1.41561031e-07 0 0.999998987 0 1.63912773e-07 0 -0.99999994"/>
         <Entity template="Deploy Slot" id="142" pos="8.625 0.100000001 5.75000048" rot="-1.00000036 0 8.19563866e-08 0 0.999999464 0 8.19563866e-08 0 -1"/>
         <Entity template="Deploy Slot" id="143" pos="8.625 0.100000001 4.74999952" rot="-0.906307876 0 -0.422618181 0 1 0 0.422618181 0 -0.906307876"/>
-        <Entity template="Ranger Assaulter" id="145" pos="8.5 0 4.75" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024">
+        <Entity template="Ranger Assaulter" id="145" pos="8.625 0 4.75" rot="-1.00000024 0 0 0 1 0 0 0 -1.00000024">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="Ranger Support" id="147" pos="8.5 0 5.75000048" rot="-0.766044796 0 0.642787814 0 1 0 -0.642787814 0 -0.766044796">
+        <Entity template="Ranger Support" id="147" pos="8.625 0 5.75000048" rot="-0.99619472 0 -0.0871556699 0 1 0 0.0871556699 0 -0.99619472">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -246,12 +246,12 @@
         <Entity template="pickup_02_white_door_right" id="432" pos="7.44860315 1.13248825e-06 -2.70664215" rot="1.0000006 0 4.76837158e-07 0 0.999998987 0 2.30967999e-07 0 1.00000048" group="28"/>
         <Entity template="pickup_02_glass_door_right" id="433" pos="7.38859701 1.01327896e-06 -2.67663956" rot="1.0000006 0 4.76837158e-07 0 0.999998987 0 2.30967999e-07 0 1.00000048" group="28"/>
         <Entity template="Deploy Slot" id="435" pos="8.625 0.100000001 7.75" rot="1 0 0 0 1 0 0 0 1" group="30"/>
-        <Entity template="Ranger Marksman" id="437" pos="8.625 0 7.75000048" rot="1 0 0 0 1 0 0 0 1" group="32">
+        <Entity template="Ranger Marksman" id="437" pos="8.625 0 7.75000048" rot="-1 0 1.56462193e-07 0 1 0 -1.56462193e-07 0 -1" group="32">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
         </Entity>
-        <Entity template="Ranger Grenadier" id="439" pos="8.625 0 6.62500048" rot="1 0 0 0 1 0 0 0 1" group="34">
+        <Entity template="Ranger Grenadier" id="439" pos="8.625 0 6.75000048" rot="-1 0 1.34110451e-07 0 1 0 -1.34110451e-07 0 -1" group="34">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -784,8 +784,6 @@
         <Entity template="grass_01" id="246" pos="-8.5 0 -0.625" rot="0.342022955 0 0.939691722 0 1 0 -0.939691722 0 0.342022955" layerMask="536870912"/>
         <Entity template="grass_01" id="247" pos="-8.75 0 -1" rot="0.984808266 0 0.173645183 0 1 0 -0.173645183 0 0.984808266" layerMask="536870912"/>
         <Entity template="grass_01" id="248" pos="-7.37500048 0 -1.62500012" rot="-0.994521558 0 0.104531497 0 1 0 -0.104531497 0 -0.994521558" layerMask="536870912"/>
-        <Entity template="Alt. Spawn Point" id="1159" pos="0.5 0.00100000005 -1.24999952" rot="1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 1" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="1392" pos="-10.500001 0.00100000005 -3.24999976" rot="1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 1" layerMask="2"/>
         <Entity template="bush_01" id="1556" pos="-12.125001 0.288307786 4.875" rot="0.087155737 0 -0.99619472 0 1 0 0.99619472 0 0.087155737" layerMask="536870912"/>
         <Entity template="bush_01" id="1557" pos="-12.875001 0.288307786 2.375" rot="0.990268171 0 0.13917309 0 1 0 -0.13917309 0 0.990268171" layerMask="536870912"/>
         <Entity template="bush_01" id="1558" pos="-12.625001 0.288307786 -0.75000006" rot="0.99984777 0 0.0174522996 0 1 0 -0.0174522996 0 0.99984777" layerMask="536870912"/>
@@ -1178,6 +1176,8 @@
         <Entity template="grass_02" id="1971" pos="0.75000006 0 4.25" rot="-0.615662038 0 -0.788010299 0 1 0 0.788010299 0 -0.615662038" layerMask="536870912"/>
         <Entity template="grass_02" id="1972" pos="0.75000006 0 5" rot="0.997564077 0 -0.0697572604 0 1 0 0.0697572604 0 0.997564077" layerMask="536870912"/>
         <Entity template="grass_02" id="1973" pos="0.75000006 0 5.25000048" rot="-0.984807611 0 0.173648983 0 1 0 -0.173648983 0 -0.984807611" layerMask="536870912"/>
+        <Entity template="Alt. Spawn Point" id="1159" pos="0.5 0.00100000005 -1.24999952" rot="1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 1" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="1392" pos="-10.500001 0.00100000005 -3.24999976" rot="1 0 8.19563795e-08 0 1 0 -8.19563795e-08 0 1" layerMask="2"/>
         <Entity template="RMG Building Entrance" id="1975" pos="2.00000095 0.00100000005 2.25000072" rot="8.94069672e-08 0 -1 0 1 0 1 0 8.94069672e-08" layerMask="2">
             <Targets num="9" id0="6" id1="3304" id2="7783" id3="1159" id4="4630" id5="7009" id6="7721" id7="1392" id8="2244"/>
             <RandStart tags="entrance" theme="compound">
