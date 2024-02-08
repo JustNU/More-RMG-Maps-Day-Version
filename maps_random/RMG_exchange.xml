@@ -1,5 +1,5 @@
 <Map name="RMG_exchange">
-    <Scenario type="None" numDeployableTroops="2" referenceWinTimeSeconds="0" challenges="0" nightMission="false"/>
+    <Scenario type="None" numDeployableTroops="3" referenceWinTimeSeconds="0" challenges="0" nightMission="false"/>
     <Graphics fogColor="E8C47C" fogDensity="0.25" windSpeed="0.050000001" windDirection="45" cloudDensity="0" waterClarity="0.94999999" rainAmount="0" terrainNormalsStrength="1" terrainSharpness="0.5" gossaoStrength="3" gossaoStrengthTerrain="5" gossaoDirectionalOcclusion="0" gossaoLevelsMin="0.050000001"/>
     <Terrain widthMeters="40" heightMeters="20">
         <Materials num="1" mat0="dirt_to_grass"/>
@@ -410,135 +410,6 @@
         <Entity template="Danger Area" id="257" pos="-5.30092525 0.100000001 0.879116118" rot="1 0 0 0 1 0 0 0 1">
             <PolyShape num="5" p0="0 0 -0.12500003" p1="0.587593079 0 3.14588451" p2="16.3425751 0 0.377551615" p3="15.7642584 0 -2.91744804" p4="0 0 -0.12500003"/>
         </Entity>
-        <Entity template="RMG Building Entrance" id="271" pos="12.500001 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <RandStart tags="" enemyStrengthScale="49.123001"/>
-        </Entity>
-        <Entity template="Deploy Slot" id="349" pos="17.3714943 0.100000024 -8.97284985" rot="1 0 -3.12924385e-07 0 1 0 3.12924385e-07 0 1" layerMask="2"/>
-        <Entity template="Decal Dust Large 03" id="350" pos="16.2243881 1.09191406 -9.05489254" rot="-0.258819342 0 -0.965925753 0 1 0 0.965925753 0 -0.258819342" layerMask="2"/>
-        <Entity template="Decal Dust Large 04" id="351" pos="15.5990829 1.09191406 -8.4036684" rot="-0.766044617 0 -0.642787516 0 1 0 0.642787516 0 -0.766044617" layerMask="2"/>
-        <Entity template="Decal Dust Large 02" id="352" pos="16.9225235 1.09191406 -6.28860092" rot="-0.258819342 0 -0.965925753 0 1 0 0.965925753 0 -0.258819342" layerMask="2"/>
-        <Entity template="Decal Dust Large 01" id="353" pos="15.859539 1.09191406 -6.18520737" rot="-0.258819342 0 -0.965925753 0 1 0 0.965925753 0 -0.258819342" layerMask="2"/>
-        <Entity template="Orange_signal_panel_02" id="354" pos="16.4735489 1.398 -9.51991367" rot="-0.999745071 -0.0121028628 0.0190598685 -0.0225575697 0.571004629 -0.820636928 -0.000951409456 -0.820857644 -0.571132243" layerMask="2"/>
-        <Entity template="Deploy Slot" id="355" pos="14.1912117 0.100000024 -8.92795277" rot="1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 1" layerMask="2"/>
-        <Entity template="Ranger Assaulter" id="356" pos="14.2879944 0 -8.01589012" rot="0.906307995 0 0.422617972 0 1 0 -0.422617972 0 0.906307995" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="grass_02" id="357" pos="17.6603508 0 -8.24399662" rot="-0.173652709 0 0.984807014 0 1 0 -0.984807014 0 -0.173652709" layerMask="2"/>
-        <Entity template="hatchback_01_glass_back" id="359" pos="16.431591 4.76837158e-07 -9.49244976" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
-        <Entity template="hatchback_01_glass_front" id="360" pos="15.8065891 4.76837158e-07 -7.62744617" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
-        <Entity template="Foreign Advisor" id="361" pos="-8.62499905 0 2.87500191" rot="-0.906307936 0 -0.422618032 0 1 0 0.422618032 0 -0.906307936" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Foreign Advisor" id="362" pos="-8.24999905 0 3.75000191" rot="-0.906307817 0 -0.422618091 0 1 0 0.422618091 0 -0.906307817" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="hatchback_01_glass_left" id="363" pos="16.6165924 4.76837158e-07 -9.21745014" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
-        <Entity template="hatchback_01_glass_right" id="364" pos="15.0065918 4.76837158e-07 -9.21745396" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
-        <Entity template="hatchback_01_yellow_door_left" id="365" pos="16.7225952 4.76837158e-07 -8.13744831" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
-        <Entity template="hatchback_01_yellow_door_right" id="366" pos="14.8907814 4.76837158e-07 -8.13341999" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
-        <Entity template="hatchback_01_glass_door_left" id="367" pos="16.639782 4.76837158e-07 -8.21108532" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
-        <Entity template="hatchback_01_glass_door_right" id="368" pos="14.9931107 4.76837158e-07 -8.22108555" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
-        <Entity template="hatchback_01_yellow" id="369" pos="15.806591 4.76837158e-07 -8.21745014" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
-        <Entity template="Ranger Support" id="370" pos="17.4081078 0 -9.00094128" rot="0.965925992 0 0.258818716 0 1 0 -0.258818865 0 0.965925932" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Deploy Slot" id="371" pos="14.2556419 0.100000024 -7.89514828" rot="1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 1" layerMask="2"/>
-        <Entity template="Rabble" id="372" pos="-3.37499905 0 6.00000191" rot="-0.939692736 0 -0.342019975 0 1 0 0.342019975 0 -0.939692736" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Rabble" id="373" pos="-2.49999905 0 7.12500191" rot="-0.906307936 0 -0.422618091 0 1 0 0.422618091 0 -0.906307936" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="stop_sign" id="374" pos="-4.24999905 1.72360051 9.53674316e-07" rot="-0.173648059 0 0.984807849 0 1 0 -0.984807849 0 -0.173648059" layerMask="2"/>
-        <Entity template="Rabble" id="375" pos="0.375000954 0 0.250000954" rot="-0.965925932 0 -0.258818895 0 1 0 0.258818895 0 -0.965925932" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="barrier_wood" id="376" pos="-7.50108719 0.441647232 3.17004013" rot="0.965925872 0 0.258819044 0 1 0 -0.258819044 0 0.965925872" layerMask="2"/>
-        <Entity template="Machinegunner OldSchool" id="377" pos="-6.99999952 0 -1.74999905" rot="-0.766044319 0 0.642787814 0 1 0 -0.642787814 0 -0.766044319" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Grunt Insurgent" id="378" pos="-7.5 0 -0.999999046" rot="-0.499999881 0 0.866025567 0 1 0 -0.866025567 0 -0.499999881" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="pickup_02_green" id="379" pos="-4.99999905 0 6.75000191" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
-            <Targets num="1" id0="397"/>
-        </Entity>
-        <Entity template="pickup_02_glass_door_right" id="380" pos="-4.86137295 0 5.91962051" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
-            <Targets num="1" id0="398"/>
-        </Entity>
-        <Entity template="pickup_02_green_door_right" id="381" pos="-4.834692 0 5.85806847" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
-            <Targets num="1" id0="399"/>
-        </Entity>
-        <Entity template="pickup_02_green_door_left" id="382" pos="-5.90727711 0 6.76112747" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
-            <Targets num="1" id0="400"/>
-        </Entity>
-        <Entity template="pickup_02_glass_door_left" id="383" pos="-5.85351658 0 6.75518036" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
-            <Targets num="1" id0="402"/>
-        </Entity>
-        <Entity template="pickup_02_glass_front" id="384" pos="-5.5785141 0 6.0605545" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
-            <Targets num="1" id0="401"/>
-        </Entity>
-        <Entity template="pickup_02_glass_left" id="385" pos="-5.44008636 0 7.23675537" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
-            <Targets num="1" id0="391"/>
-        </Entity>
-        <Entity template="pickup_02_glass_back" id="386" pos="-4.78788996 0 7.00279617" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
-            <Targets num="1" id0="392"/>
-        </Entity>
-        <Entity template="pickup_02_glass_right" id="387" pos="-4.44423056 0 6.40113258" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
-            <Targets num="1" id0="393"/>
-        </Entity>
-        <Entity template="booth_bazar_01_02" id="388" pos="-4.27910328 1.42617774 7.84241867" scale="0.599999905" rot="-0.642787516 0 0.766044617 0 1 0 -0.766044617 0 -0.642787516" layerMask="2" editorAutoHeight="false">
-            <Targets num="1" id0="394"/>
-        </Entity>
-        <Entity template="FOV Blocker" id="389" pos="-5.31808186 0 7.343256" rot="0.766044378 0 0.642787635 0 1 0 -0.642787635 0 0.766044378" layerMask="2">
-            <Targets num="1" id0="396"/>
-            <Wall numTrees="1" numNodes="5">
-                <Branch parent="0" p0="0 0" p1="1.25 8.94069672e-08" p2="1.25 1.875" p3="0 1.875" p4="0 0.25000006"/>
-            </Wall>
-        </Entity>
-        <Entity template="booth_bazar_01_02" id="390" pos="-4.08759165 1.42617774 7.68172646" scale="0.599999905" rot="0.642787635 0 -0.766044378 0 1 0 0.766044378 0 0.642787635" layerMask="2" editorAutoHeight="false">
-            <Targets num="1" id0="395"/>
-        </Entity>
-        <Entity template="Grunt Insurgent Weaponless" id="403" pos="7.25000191 0 -4.74999905" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Asset Female 03" id="408" pos="17.375 0 -8" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="HVT EscapeZone" id="409" pos="-18.75 0.0299999993 6.50000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="RescueZone" id="411" pos="15.875001 0.0299999993 -4.375" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
-        <Entity template="HostageVisible" id="413" pos="-5.50000048 0 8.375" rot="-0.766044319 0 -0.642787874 0 1 0 0.642787874 0 -0.766044319" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
-        <Entity template="Hostage" id="415" pos="-6.12500048 0 7.62500048" rot="-0.0871555805 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555805" layerMask="2">
-            <Human needsRescue="false">
-                <Traits/>
-            </Human>
-        </Entity>
         <Entity template="RMG Building Entrance" id="15" pos="13.499999 0.00100000005 8.75" rot="-1 0 -2.08616257e-07 0 1 0 2.08616257e-07 0 -1" layerMask="8">
             <Targets num="2" id0="16" id1="2086"/>
             <RandStart tags="garage" theme="compound" shapeFillMin="0.001"/>
@@ -550,18 +421,6 @@
         <Entity template="RMG Building Shape" id="7406" pos="10 0.100000001 8.75" rot="1 0 0 0 1 0 0 0 1" layerMask="8">
             <PolyShape num="2" p0="0 0 0" p1="5.00000095 0 0"/>
         </Entity>
-        <Entity template="Alt. Spawn Point" id="391" pos="15.8920021 0 4.51919556" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="392" pos="16.5186081 0 4.81493378" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="393" pos="17.1870537 0 4.63249588" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="394" pos="16.2846718 1.42617774 5.76840401" scale="0.599999905" rot="0.087155804 0 0.996194661 0 1 0 -0.996194661 0 0.087155804" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="395" pos="16.5337181 1.42617774 5.79019356" scale="0.599999905" rot="-0.0871556327 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556327" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="396" pos="15.9029655 0 4.68077278" rot="0.99619478 0 -0.0871556327 0 1 0 0.0871556327 0 0.99619478" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="398" pos="17.2325668 0 3.99705124" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="399" pos="17.2949562 0 3.97239304" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="400" pos="15.8979645 0 3.8525219" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="401" pos="16.6258163 0 3.58961296" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="402" pos="15.9401855 0 3.88633156" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
-        <Entity template="Alt. Spawn Point" id="397" pos="16.5473785 0 4.48619843" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
         <Entity template="street_railing_01" id="307" pos="15.7223778 0 -7.04213905" scale="0.949999988" rot="0.99619472 0 -0.0871558636 0 1 0 0.0871558487 0 0.99619472" layerMask="1"/>
         <Entity template="Deploy Slot" id="309" pos="-18.037468 0.100000024 4.26462555" rot="-0.42261821 0 0.906307817 0 1 0 -0.906307876 0 -0.42261824" layerMask="1"/>
         <Entity template="Decal Dust Large 03" id="310" pos="-17.5741997 1.09191406 5.45222282" rot="0.984807789 0 0.173648164 0 1 0 -0.173648164 0 0.984807789" layerMask="1"/>
@@ -570,7 +429,7 @@
         <Entity template="Decal Dust Large 01" id="313" pos="-14.7211742 1.09191406 5.07608414" rot="0.984807789 0 0.173648164 0 1 0 -0.173648164 0 0.984807789" layerMask="1"/>
         <Entity template="Orange_signal_panel_02" id="314" pos="-18.0029373 1.398 5.92891312" rot="0.421648532 -0.738834798 -0.525676429 -0.0225575697 0.571004629 -0.820636928 0.906478822 0.357878208 0.224096909" layerMask="1"/>
         <Entity template="Deploy Slot" id="315" pos="-16.8793106 0.100000024 7.23361969" rot="-0.422618181 0 0.906307876 0 1 0 -0.906307876 0 -0.422618181" layerMask="1"/>
-        <Entity template="Ranger Assaulter" id="316" pos="-16.0936012 0 6.76045418" rot="-0.766044378 0 0.642787635 0 1 0 -0.642787635 0 -0.766044378" layerMask="1">
+        <Entity template="Ranger Assaulter" id="316" pos="-16.0936012 0 6.76045418" rot="-0.342020154 0 0.939692676 0 1 0 -0.939692676 0 -0.342020154" layerMask="1">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -588,7 +447,7 @@
         <Entity template="hatchback_01_glass_door_left" id="325" pos="-16.811264 4.76837158e-07 4.50019646" rot="0.422618389 0 -0.906307817 0 1 0 0.906307817 0 0.422618419" layerMask="1"/>
         <Entity template="hatchback_01_glass_door_right" id="326" pos="-16.1244164 4.76837158e-07 5.99680901" rot="0.422618389 0 -0.906307817 0 1 0 0.906307817 0 0.422618419" layerMask="1"/>
         <Entity template="hatchback_01_yellow" id="327" pos="-16.4649086 4.76837158e-07 5.25801086" rot="0.422618389 0 -0.906307817 0 1 0 0.906307817 0 0.422618419" layerMask="1"/>
-        <Entity template="Ranger Support" id="328" pos="-18.1388626 0 4.40943146" rot="-0.642787576 0 0.766044438 0 1 0 -0.766044497 0 -0.642787576" layerMask="1">
+        <Entity template="Ranger Support" id="328" pos="-18.0138626 0 4.28443146" rot="-0.342020154 0 0.939692616 0 1 0 -0.939692676 0 -0.342020124" layerMask="1">
             <Human needsRescue="false">
                 <Traits/>
             </Human>
@@ -698,6 +557,157 @@
             </Human>
         </Entity>
         <Entity template="RescueZone" id="407" pos="-17 0.0299999993 2.62500024" rot="1 0 0 0 1 0 0 0 1" layerMask="1"/>
+        <Entity template="Ranger Assaulter" id="412" pos="-16.8436012 0 7.13545418" rot="-0.342020154 0 0.939692676 0 1 0 -0.939692676 0 -0.342020154" layerMask="1">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="RMG Building Entrance" id="271" pos="12.500001 0.00100000005 0.125" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <RandStart tags="" enemyStrengthScale="49.123001"/>
+        </Entity>
+        <Entity template="Deploy Slot" id="349" pos="17.3714943 0.100000024 -8.97284985" rot="1 0 -3.12924385e-07 0 1 0 3.12924385e-07 0 1" layerMask="2"/>
+        <Entity template="Decal Dust Large 03" id="350" pos="16.2243881 1.09191406 -9.05489254" rot="-0.258819342 0 -0.965925753 0 1 0 0.965925753 0 -0.258819342" layerMask="2"/>
+        <Entity template="Decal Dust Large 04" id="351" pos="15.5990829 1.09191406 -8.4036684" rot="-0.766044617 0 -0.642787516 0 1 0 0.642787516 0 -0.766044617" layerMask="2"/>
+        <Entity template="Decal Dust Large 02" id="352" pos="16.9225235 1.09191406 -6.28860092" rot="-0.258819342 0 -0.965925753 0 1 0 0.965925753 0 -0.258819342" layerMask="2"/>
+        <Entity template="Decal Dust Large 01" id="353" pos="15.859539 1.09191406 -6.18520737" rot="-0.258819342 0 -0.965925753 0 1 0 0.965925753 0 -0.258819342" layerMask="2"/>
+        <Entity template="Orange_signal_panel_02" id="354" pos="16.4735489 1.398 -9.51991367" rot="-0.999745071 -0.0121028628 0.0190598685 -0.0225575697 0.571004629 -0.820636928 -0.000951409456 -0.820857644 -0.571132243" layerMask="2"/>
+        <Entity template="Deploy Slot" id="355" pos="14.1912117 0.100000024 -8.92795277" rot="1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 1" layerMask="2"/>
+        <Entity template="Ranger Assaulter" id="356" pos="14.2879944 0 -8.01589012" rot="0.939692616 0 -0.342020363 0 1 0 0.342020363 0 0.939692616" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="grass_02" id="357" pos="17.6603508 0 -8.24399662" rot="-0.173652709 0 0.984807014 0 1 0 -0.984807014 0 -0.173652709" layerMask="2"/>
+        <Entity template="hatchback_01_glass_back" id="359" pos="16.431591 4.76837158e-07 -9.49244976" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
+        <Entity template="hatchback_01_glass_front" id="360" pos="15.8065891 4.76837158e-07 -7.62744617" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
+        <Entity template="Foreign Advisor" id="361" pos="-8.62499905 0 2.87500191" rot="-0.906307936 0 -0.422618032 0 1 0 0.422618032 0 -0.906307936" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Foreign Advisor" id="362" pos="-8.24999905 0 3.75000191" rot="-0.906307817 0 -0.422618091 0 1 0 0.422618091 0 -0.906307817" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="hatchback_01_glass_left" id="363" pos="16.6165924 4.76837158e-07 -9.21745014" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
+        <Entity template="hatchback_01_glass_right" id="364" pos="15.0065918 4.76837158e-07 -9.21745396" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
+        <Entity template="hatchback_01_yellow_door_left" id="365" pos="16.7225952 4.76837158e-07 -8.13744831" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
+        <Entity template="hatchback_01_yellow_door_right" id="366" pos="14.8907814 4.76837158e-07 -8.13341999" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
+        <Entity template="hatchback_01_glass_door_left" id="367" pos="16.639782 4.76837158e-07 -8.21108532" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
+        <Entity template="hatchback_01_glass_door_right" id="368" pos="14.9931107 4.76837158e-07 -8.22108555" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
+        <Entity template="hatchback_01_yellow" id="369" pos="15.806591 4.76837158e-07 -8.21745014" rot="-1 0 1.49011612e-07 0 1 0 -1.49011612e-07 0 -1" layerMask="2"/>
+        <Entity template="Ranger Support" id="370" pos="17.4081078 0 -9.00094128" rot="0.965925992 0 0.258818716 0 1 0 -0.258818865 0 0.965925932" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Deploy Slot" id="371" pos="14.2556419 0.100000024 -7.89514828" rot="1 0 -3.87430134e-07 0 1 0 3.87430134e-07 0 1" layerMask="2"/>
+        <Entity template="Rabble" id="372" pos="-3.37499905 0 6.00000191" rot="-0.939692736 0 -0.342019975 0 1 0 0.342019975 0 -0.939692736" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Rabble" id="373" pos="-2.49999905 0 7.12500191" rot="-0.906307936 0 -0.422618091 0 1 0 0.422618091 0 -0.906307936" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="stop_sign" id="374" pos="-4.24999905 1.72360051 9.53674316e-07" rot="-0.173648059 0 0.984807849 0 1 0 -0.984807849 0 -0.173648059" layerMask="2"/>
+        <Entity template="Rabble" id="375" pos="0.375000954 0 0.250000954" rot="-0.965925932 0 -0.258818895 0 1 0 0.258818895 0 -0.965925932" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="barrier_wood" id="376" pos="-7.50108719 0.441647232 3.17004013" rot="0.965925872 0 0.258819044 0 1 0 -0.258819044 0 0.965925872" layerMask="2"/>
+        <Entity template="Machinegunner OldSchool" id="377" pos="-6.99999952 0 -1.74999905" rot="-0.766044319 0 0.642787814 0 1 0 -0.642787814 0 -0.766044319" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Grunt Insurgent" id="378" pos="-7.5 0 -0.999999046" rot="-0.499999881 0 0.866025567 0 1 0 -0.866025567 0 -0.499999881" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="pickup_02_green" id="379" pos="-4.99999905 0 6.75000191" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
+            <Targets num="1" id0="397"/>
+        </Entity>
+        <Entity template="pickup_02_glass_door_right" id="380" pos="-4.86137295 0 5.91962051" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
+            <Targets num="1" id0="398"/>
+        </Entity>
+        <Entity template="pickup_02_green_door_right" id="381" pos="-4.834692 0 5.85806847" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
+            <Targets num="1" id0="399"/>
+        </Entity>
+        <Entity template="pickup_02_green_door_left" id="382" pos="-5.90727711 0 6.76112747" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
+            <Targets num="1" id0="400"/>
+        </Entity>
+        <Entity template="pickup_02_glass_door_left" id="383" pos="-5.85351658 0 6.75518036" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
+            <Targets num="1" id0="402"/>
+        </Entity>
+        <Entity template="pickup_02_glass_front" id="384" pos="-5.5785141 0 6.0605545" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
+            <Targets num="1" id0="401"/>
+        </Entity>
+        <Entity template="pickup_02_glass_left" id="385" pos="-5.44008636 0 7.23675537" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
+            <Targets num="1" id0="391"/>
+        </Entity>
+        <Entity template="pickup_02_glass_back" id="386" pos="-4.78788996 0 7.00279617" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
+            <Targets num="1" id0="392"/>
+        </Entity>
+        <Entity template="pickup_02_glass_right" id="387" pos="-4.44423056 0 6.40113258" rot="0.766044438 0 0.642787576 0 1 0 -0.642787576 0 0.766044438" layerMask="2">
+            <Targets num="1" id0="393"/>
+        </Entity>
+        <Entity template="booth_bazar_01_02" id="388" pos="-4.27910328 1.42617774 7.84241867" scale="0.599999905" rot="-0.642787516 0 0.766044617 0 1 0 -0.766044617 0 -0.642787516" layerMask="2" editorAutoHeight="false">
+            <Targets num="1" id0="394"/>
+        </Entity>
+        <Entity template="FOV Blocker" id="389" pos="-5.31808186 0 7.343256" rot="0.766044378 0 0.642787635 0 1 0 -0.642787635 0 0.766044378" layerMask="2">
+            <Targets num="1" id0="396"/>
+            <Wall numTrees="1" numNodes="5">
+                <Branch parent="0" p0="0 0" p1="1.25 8.94069672e-08" p2="1.25 1.875" p3="0 1.875" p4="0 0.25000006"/>
+            </Wall>
+        </Entity>
+        <Entity template="booth_bazar_01_02" id="390" pos="-4.08759165 1.42617774 7.68172646" scale="0.599999905" rot="0.642787635 0 -0.766044378 0 1 0 0.766044378 0 0.642787635" layerMask="2" editorAutoHeight="false">
+            <Targets num="1" id0="395"/>
+        </Entity>
+        <Entity template="Alt. Spawn Point" id="391" pos="15.8920021 0 4.51919556" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="392" pos="16.5186081 0 4.81493378" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="393" pos="17.1870537 0 4.63249588" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="394" pos="16.2846718 1.42617774 5.76840401" scale="0.599999905" rot="0.087155804 0 0.996194661 0 1 0 -0.996194661 0 0.087155804" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="395" pos="16.5337181 1.42617774 5.79019356" scale="0.599999905" rot="-0.0871556327 0 -0.99619478 0 1 0 0.99619478 0 -0.0871556327" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="396" pos="15.9029655 0 4.68077278" rot="0.99619478 0 -0.0871556327 0 1 0 0.0871556327 0 0.99619478" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="397" pos="16.5473785 0 4.48619843" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="398" pos="17.2325668 0 3.99705124" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="399" pos="17.2949562 0 3.97239304" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="400" pos="15.8979645 0 3.8525219" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="401" pos="16.6258163 0 3.58961296" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
+        <Entity template="Alt. Spawn Point" id="402" pos="15.9401855 0 3.88633156" rot="0.99619478 0 -0.0871556923 0 1 0 0.0871556923 0 0.99619478" layerMask="2"/>
+        <Entity template="Grunt Insurgent Weaponless" id="403" pos="7.25000191 0 -4.74999905" rot="8.94069672e-08 0 1 0 1 0 -1 0 8.94069672e-08" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Asset Female 03" id="408" pos="17.375 0 -8" rot="1 0 0 0 1 0 0 0 1" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="HVT EscapeZone" id="409" pos="-18.75 0.0299999993 6.50000048" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
+        <Entity template="RescueZone" id="411" pos="15.875001 0.0299999993 -4.375" rot="1 0 0 0 1 0 0 0 1" layerMask="2"/>
+        <Entity template="HostageVisible" id="413" pos="-5.50000048 0 8.375" rot="-0.766044319 0 -0.642787874 0 1 0 0.642787874 0 -0.766044319" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Ranger Assaulter" id="414" pos="14.1629944 0 -9.01589012" rot="0.70710659 0 -0.707107008 0 1 0 0.707107008 0 0.70710659" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
+        <Entity template="Hostage" id="415" pos="-6.12500048 0 7.62500048" rot="-0.0871555805 0 0.99619472 0 1 0 -0.99619472 0 -0.0871555805" layerMask="2">
+            <Human needsRescue="false">
+                <Traits/>
+            </Human>
+        </Entity>
         <Entity template="Alt. Spawn Point" id="493" pos="9.37499905 0.00100000005 3.74999976" rot="-2.60770292e-07 0 1 0 1 0 -1 0 -2.60770292e-07" layerMask="32"/>
         <Entity template="Alt. Spawn Point" id="621" pos="13.875 0.00100000005 1.74999976" rot="1 0 -2.3096797e-07 0 1 0 2.3096797e-07 0 1" layerMask="32"/>
         <Entity template="Alt. Spawn Point" id="706" pos="17.875 0.00100000005 4.74999952" rot="-9.68575478e-08 0 -1 0 1 0 1 0 -9.68575478e-08" layerMask="32"/>
